@@ -8,6 +8,7 @@ html{scroll-behavior: smooth;}
 
  /*For Background*/
 .container{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  /*Img Taken By My Brother*/
 	   background-blend-mode:multiply;
 	   width:100%;
      background-position:center;
@@ -45,24 +46,24 @@ html{scroll-behavior: smooth;}
 
 .icon:hover{box-shadow:2px 2px 5px #000;}
 
-ul li{display:inline-block;
+ nav ul li{display:inline-block;
       list-style:none;
       font-size:20px;}
 
- ul li a{text-decoration:none;
+  nav ul li a{text-decoration:none;
          color:#fff;
          padding:5px 2vw;
          transition:0.3s ease;
 }
 
 
-ul li a:hover{color:#e7c82f;	
+nav ul li a:hover{color:#e7c82f;	
 	    text-shadow:5px 5px 20px  #e7c82f;     
 }
 
 button{margin-right:40px;
        border:1px solid #fff;
-       background:white;
+       background:#fff;
        border-radius:20px;
        padding:3px 5px;
        cursor:pointer;
@@ -70,7 +71,7 @@ button{margin-right:40px;
        box-shadow:2px 2px 5px #fff}
 /*Navigation Menu End*/
 
-/* For Center Content*/
+/* For Designing Center Content*/
 .content{position:absolute;
          top:35%;
          left:40vw;
@@ -112,12 +113,14 @@ button{margin-right:40px;
 
 .effect:hover{color: #e7c82f;  
                  text-shadow:5px 5px 20px  #e7c82f;}
-/*Center Content End*/
+/*Designing Center Content End*/
 
 /*For Responsive*/
 @media screen and (max-width:850px) {
 
-ul li{font-size:2.5vw;}
+.icon{width:21px;}
+
+nav ul li{font-size:2.5vw;}
 
 .content{left:43vw;
          font-size:2.3vw;}
@@ -135,7 +138,9 @@ button{font-size:15px;}
  
 @media screen and (max-width:540px) {
 
-	ul li{font-size:2.8vw;}
+.icon{width:20px;}
+
+	 nav ul li{font-size:2.8vw;}
 
 .content{font-size:2.7vw;}
 
@@ -149,5 +154,110 @@ button{font-size:11px;}
 }
 /*Responsive End*/
 /*Home End*/
+
+/*Contact*/
+
+/*Body Class*/
+.container1{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  /*Img Taken By My Brother*/
+     background-blend-mode:multiply;
+     width:100%;
+     background-position:center;
+     background-size:cover;
+     position:relative;
+     background-repeat:no-repeat;}
+ /*Body Class End*/    
+
+/*For Navbar Contact Menu Button Design*/
+.contact{border:1px solid #fff;
+         background-color:#fff;
+         color:#000;
+         border-radius:20px;
+         padding:3px 10px;}
+
+.contact:hover{box-shadow:2px 2px 5px #fff;}
+/* Navbar Contact Menu Button Design End*/
+
+/*For Designing Center items*/
+.main1{display:flex;
+       justify-content:center;
+       align-items:center;
+        margin:30px auto;}
+
+.icon1{width:35px;
+      cursor:pointer;
+      margin-right:20px;
+      border:1px solid #fff;
+      background-color:#fff;
+      border-radius:100%;
+      padding:3px;
+      box-shadow:2px 2px 5px #fff;}
+
+.items1{display:flex;
+        margin-bottom:35px;}
+
+.contact1{color:#fbfcfd;
+         font-size:19px;
+         margin-right:250px;}
+
+.head span{color:#fff;
+           font-size:27px;}
+
+.contact2{background-color:rgba(0,0,0,0.3);
+          padding:0 80px 30px 80px;
+          color:#fff;
+          transition:0.3s ease;}
+
+ .contact2:hover{transform:translateY(-20px);
+                 box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
+
+.contact2 h1{margin:30px;}
+
+form{font-size:17px;}
+
+#submit{border:1px solid #FFE5B4;
+        background-color:#FFE5B4;
+        padding:5px 10px;
+        border-radius:20px;
+        cursor:pointer;
+        margin-left:50px;}
+
+#submit:hover{box-shadow:2px 2px 5px #FFE5B4;}
+
+#name{width:100%;}
+/*Designing Center items End*/
+
+/*For Responsive*/
+@media screen and (max-width:960px){
+  .main1{flex-direction:column;}
+
+.icon1{width:30px;}
+
+   .contact1{margin:20px 0px 50px 0px;
+              font-size:16px;}
+
+.head span{font-size:22px;}
+
+}
+
+@media screen and (max-width:540px){
+
+  .icon1{width:27px;}
+
+ .contact1{font-size:13px;}
+
+.head span{font-size:16px;}
+
+.contact2{padding:0 70px 30px 70px;}
+
+.contact2 h1{font-size:24px;}
+
+form{font-size:12px;}
+
+#submit{ padding:4px 8px;
+font-size:12px;}
+}
+/*Responsive End*/
+/*Contact End*/
 
 
