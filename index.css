@@ -159,7 +159,7 @@ button{font-size:11px;}
 
 /*Body Class*/
 .container1{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-  /*Img Taken By My Brother*/
+   /*Img Taken By My Brother*/
      background-blend-mode:multiply;
      width:100%;
      background-position:center;
@@ -259,5 +259,196 @@ font-size:12px;}
 }
 /*Responsive End*/
 /*Contact End*/
+
+/*CV*/
+
+/*For Navbar CV Menu Button Design*/
+.cv{border:1px solid #fff;
+         background-color:#fff;
+         color:#000;
+         border-radius:20px;
+         padding:3px 10px;}
+
+.cv:hover{box-shadow:2px 2px 5px #fff;}
+/*Navbar CV Menu Button Design End*/
+
+/*For Designing Center items */
+.main2{display:flex;
+       justify-content:center;
+        flex-direction:column;
+        align-items:center;}
+
+.left-content{display:flex;
+              flex-direction:column;
+              width:300px;
+              text-align:center;
+              border:1px solid #FF0000;
+              background-color:#fff;
+              border-radius:20px;
+              z-index:0;
+              transition:0.1s ease-in-out;
+              margin-top:25px;}
+
+  .left-content:hover{transform:scale(1.03);
+                      z-index:1;
+                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}            
+
+.img-and-text{width:100%;
+               height:250px;
+               border:1px solid #fff;
+                border-radius:20px;
+                color:#DC143C;}
+
+.img1{width:100%;
+       height:220px;
+      border:1px solid #fff;
+      border-radius: 20px;}
+
+.left-content1{display:flex;
+              flex-direction:column;
+              width:300px;
+              border:1px solid rgba(0,0,0,0.5);
+              background-color:rgba(0,0,0,0.5);
+              border-radius:20px;
+              margin-top:25px;
+              height:500px;
+              z-index:0;
+              transition:0.1s ease-in-out;
+              margin-bottom:10px;}
+
+.left-content1:hover{transform:scale(1.03);
+                      z-index:1;
+                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}               
+
+.left-content1  h3{margin:20px;
+                  text-align:center;
+                  color:#fff;
+                  text-align:center;}       
+
+
+.items2{display:flex;
+        margin-bottom:15px;}
+
+.icon2{width:25px;
+      cursor:pointer;
+      margin:0px 15px;
+      border:1px solid #fff;
+      background-color:#fff;
+      border-radius:50%;
+      padding:3px;
+      box-shadow:2px 2px 5px #fff;}
+
+ .head1{font-size:15px;
+        color:#fff;}     
+
+.head1 span{color:#fff;
+           font-size:18px;}
+
+.skill{display:flex;} 
+  
+  .icon3{width:55px;
+      cursor:pointer;
+      margin:10px 15px 0px 30px;
+      height:40px;}           
+
+  .skill h3{margin:20px;
+            text-align:center;
+            color:#fff;}   
+
+  .percent{color:#fff;}                   
+
+.percent li{list-style:none;
+            margin:20px;}
+ .inside{height:9px;
+         border:1px solid #FFE5B4;
+         background:#FFE5B4;
+         border-radius:20px;}           
+
+.outside{margin-top:5px;
+         height:10px;
+         border:1px solid #fff;
+         border-radius:20px;}
+
+.p-35{width:35%;}
+
+.p-30{width:30%;}
+
+.p-70{width:70%;}
+
+.container2{display:flex;
+            justify-content:center;
+            align-items:center;}
+
+.right-content{display:flex;
+              flex-direction:column;
+              width:300px;
+              border:1px solid #FF0000;
+              background-color:#fff;
+              border-radius:20px;
+              margin:25px 0px 15px 30px;
+              z-index:0;
+              transition:0.1s ease-in-out;
+              height:775px;}
+
+   .right-content:hover{transform:scale(1.03);
+                      z-index:1;
+                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
+
+.icon4{width:55px;
+      cursor:pointer;
+      margin:10px 10px 0px 30px;
+      height:40px;}
+
+.education{display:flex;
+           text-align:center;}
+
+.education h2{margin:15px;
+            text-align:center;}
+
+  .education h2 span{color:#DC143C;}          
+
+.detail{margin:10px;}
+
+.parts h4{color:#e7c82f;}
+
+.parts{padding-bottom:10px;
+line-height:20px;}
+
+.experience{text-align:center;
+margin:30px;}
+
+.experience h2 span{color:#DC143C;}
+
+strong{font-size:30px;}
+
+.interest h2{text-align:center;
+            margin-bottom:15px;}
+
+.interest h2 span{color:#DC143C;}
+
+.book{display:flex;
+      align-items:center;}
+
+.icon5{width:65px;
+      cursor:pointer;
+      margin:10px 15px 0px 20px;
+      border:1px solid #000;
+      border-radius:10px;
+      padding:10px;
+      height:50px;}
+/*Designing Center items End*/
+
+/*For Responsive*/
+
+ @media screen and (max-width:660px){
+
+  .container2{flex-direction:column;}
+
+  .right-content{ margin:10px 0px 15px 10px;}
+
+ }   
+/*Responsive End*/
+/*CV End*/
+
 
 
