@@ -8,9 +8,9 @@ html{scroll-behavior: smooth;}
 
 /*Home*/
 
- /*For Background of index.html*/
+     /*For Background of index.html*/
 .container{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-  /*Img Taken By My Brother*/
+          /*Img Taken By My Brother*/
            background-blend-mode:multiply;
            width:100%;
            background-position:center;
@@ -26,19 +26,24 @@ nav{display:flex;
     font-family:sans-serif; 
     text-shadow:2px 2px 5px #fff;
     background-color: rgba(0,0,0,0.3);
-    padding:10px 0 10px 0;}
+    padding:10px 0;}
 
- 
+#menu1{cursor:pointer;
+       display:none;}
+
+#menu1:hover{box-shadow:2px 2px 5px #000;}
+
 .two{height:3px;
      width:22px;
      display:block;
-     background-color: #000;
+     background-color:#000;
      transition:0.3s ease;}
 
 #one{transform: translateY(-4px);}
 
 #one2{transform: translateY(4px);}
-    
+  /*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi
+[Online].Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/  
 
 .home{border:1px solid #fff;
       background-color:#fff;
@@ -48,21 +53,16 @@ nav{display:flex;
 
 .home:hover{box-shadow:2px 2px 5px #fff;}
 
-#menu1{cursor:pointer;
-       display:none;}
-
-#menu1:hover{box-shadow:2px 2px 5px #000;}
-
 nav ul{margin-right:20px;}
 
- nav ul li{display:inline-block;
-           list-style:none;
-           font-size:20px;}
+nav ul li{display:inline-block;
+          list-style:none;
+          font-size:20px;}
 
-  nav ul li a{text-decoration:none;
-              color:#fff;
-              padding:5px 2vw;
-              transition:0.3s ease;}
+nav ul li a{text-decoration:none;
+            color:#fff;
+            padding:5px 2vw;
+            transition:0.3s ease;}
 
 
 nav ul li a:hover{color:#e7c82f;  
@@ -81,13 +81,12 @@ button{margin-right:30px;
 
 /* For Designing Center Content*/
 .content{position:fixed;
-         top:35%;
-         left:40vw;
-         transform:translate(-50%);
-         z-index:2;
-         word-spacing:5px;
-         font-size:2vw;
-}
+        top:35%;
+        left:40vw;
+        transform:translate(-50%);
+        z-index:2;
+        word-spacing:5px;
+        font-size:2vw;}
 
 .content h4{color:#FF0000;
             width:20%;}
@@ -95,7 +94,7 @@ button{margin-right:30px;
 .content h4:hover{text-shadow:2px 2px 5px #FF0000;}
 
 .content h1{color:#FFE5B4;
-            padding-left: 30px;
+            padding-left:30px;
             font-size:3vw;}
 
 .content h1:hover{text-shadow:2px 2px 5px #FFE5B4;}
@@ -104,10 +103,10 @@ button{margin-right:30px;
                  color:#FF0000;}
 
 .content h2{color:#fff;
-            background: #003366;
+            background-color:#003366;
             width:25vw;}
 
-.content h2:hover{background:#fff;
+.content h2:hover{background-color:#fff;
                   color:#003366;}
 
 .effect{text-decoration:none;
@@ -123,21 +122,22 @@ button{margin-right:30px;
 /*Designing Center Content End*/
 
 /*For Responsive*/
-@media screen and (max-width:770px) {
+@media screen and (max-width:770px){
 
 nav{flex-direction: column;
     width:100%;}
-
-#menu1{display:block;
-       position:fixed;
-       left:10px;
-       top:15px;
-       color:#fff;}
 
 nav ul li{font-size:2.5vw;
           padding:10px;
           text-align: center;
           display:block;}
+
+#menu1{display:block;
+       position:fixed;
+       left:10px;
+       top:15px;
+       color:#fff;
+       width:3%;}         
 
 .change .two{background-color: white;}
 
@@ -150,8 +150,9 @@ nav ul li{font-size:2.5vw;
 nav .list{transition:0.5s ease;
           display:none;}
 
-.list.toggleCls{display:block;}
-
+.list.change1{display:block;}
+ /*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi
+[Online].Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/
 
 .content{left:43vw;
          font-size:2.5vw;}
@@ -164,11 +165,10 @@ nav .list{transition:0.5s ease;
 
 .effect{font-size:6vw;}
 
-
 button{font-size:15px;
        position:fixed;
        right:10px;
-       top:15px;} 
+       top:12px;} 
   }
 
  
@@ -194,7 +194,7 @@ button{font-size:13px;}
 
 /*Contact*/
 
-/*Background of (contact,CV,portfolio).html*/
+/*Background of (contact,CV,portfolio,sitereport).html*/
 .container1{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
    /*Img Taken By My Brother*/
             background-blend-mode:multiply;
@@ -233,11 +233,11 @@ button{font-size:13px;}
 .items1{display:flex;
         margin-bottom:35px;}
 
-.contact1{color:#fbfcfd;
+.contact1{color:#FFF;
          font-size:19px;
          margin-right:250px;}
 
-.head span{color:#fff;
+.headpart span{color:#Afff;
            font-size:27px;}
 
 .contact2{background-color:rgba(0,0,0,0.3);
@@ -272,19 +272,19 @@ form{font-size:17px;}
 .icon1{width:30px;}
 
 .contact1{margin:20px 0px 50px 0px;
-              font-size:16px;}
+          font-size:16px;}
 
-.head span{font-size:22px;}
+.headpart span{font-size:22px;}
 
 }
 
 @media screen and (max-width:540px){
 
-  .icon1{width:27px;}
+.icon1{width:27px;}
 
- .contact1{font-size:13px;}
+.contact1{font-size:13px;}
 
-.head span{font-size:16px;}
+.headpart span{font-size:16px;}
 
 .contact2{padding:0 70px 30px 70px;}
 
@@ -327,14 +327,12 @@ form{font-size:12px;}
               transition:0.1s ease-in-out;
               margin-top:25px;}
 
-  .left-content:hover{transform:scale(1.03);
-                      z-index:1;
-                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}            
+.left-content:hover{transform:scale(1.03);
+                    z-index:1;
+                    box-shadow:10px 10px 10px rgba(0,0,0,0.6);}            
 
 .img-and-text{width:100%;
               height:250px;
-              border:1px solid #fff;
-              border-radius:20px;
               color:#DC143C;}
 
 .img1{width:100%;
@@ -360,8 +358,7 @@ form{font-size:12px;}
 
 .left-content1  h3{margin:20px;
                   text-align:center;
-                  color:#fff;
-                  text-align:center;}       
+                  color:#fff;}       
 
 
 .items2{display:flex;
@@ -376,29 +373,29 @@ form{font-size:12px;}
       padding:3px;
       box-shadow:2px 2px 5px #fff;}
 
- .head1{font-size:15px;
-        color:#fff;}     
+.head1{font-size:15px;
+      color:#fff;}     
 
-.head1 span{color:#fff;
+.head1 span{color:#Afff;
             font-size:18px;}
 
 .skill{display:flex;} 
   
-  .icon3{width:55px;
-         cursor:pointer;
-         margin:10px 15px 0px 30px;
-         height:40px;}           
+.icon3{width:55px;
+      cursor:pointer;
+      margin:10px 15px 0px 30px;
+      height:40px;}           
 
-  .skill h3{margin:20px;
-            text-align:center;
-            color:#fff;}   
+.skill h3{margin:20px;
+          text-align:center;
+          color:#fff;}   
 
-  .percent{color:#fff;} /*For showing skill percentage start*/                  
+.percent{color:#fff;} /*For showing skill percentage start*/                  
 
 .percent li{list-style:none;
             margin:20px;}
 
- .inside{height:9px;
+.inside{height:9px;
          border:1px solid #FFE5B4;
          background:#FFE5B4;
          border-radius:20px;}           
@@ -431,9 +428,9 @@ form{font-size:12px;}
               transition:0.1s ease-in-out;
               height:775px;}
 
-   .right-content:hover{transform:scale(1.03);
-                        z-index:1;
-                        box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
+.right-content:hover{transform:scale(1.03);
+                     z-index:1;
+                     box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
 
 .icon4{width:55px;
       cursor:pointer;
@@ -446,7 +443,7 @@ form{font-size:12px;}
 .education h2{margin:15px;
             text-align:center;}
 
-  .education h2 span{color:#DC143C;}          
+.education h2 span{color:#DC143C;}          
 
 .detail{margin:10px;}
 
@@ -493,7 +490,7 @@ strong{font-size:30px;}
 
 /*Portfolio*/
 
-/*For Navbar Contact Menu Button Design*/
+/*For Navbar Portfolio Menu Button Design*/
 .portfolio{border:1px solid #fff;
           background-color:#fff;
           color:#000;
@@ -501,7 +498,7 @@ strong{font-size:30px;}
           padding:3px 10px;}
 
 .portfolio:hover{box-shadow:2px 2px 5px #fff;}
-/*Navbar Contact Menu Button Design End*/
+/*Navbar Portfolio Menu Button Design End*/
 
 /*For Heading Part*/
 .top{text-align:center;
@@ -539,38 +536,36 @@ strong{font-size:30px;}
                  box-shadow:10px 10px 10px rgba(0,0,0,0.6);}                       
 
 .img{width:100%;
-      border:1px solid #FFE5B4;
-      border-radius:10px;
-      height:170px;}    
+     border:1px solid #FFE5B4;
+     border-radius:10px;
+     height:170px;}    
 
- .content1 h4{padding-left:5px;}         
+.content1 h4{padding-left:5px;}         
  
 .content1 h2{text-align:center;
              padding-bottom:6px;}
 
-  .content1 p{text-align:center;
-              padding:6px;
-              font-size:18px} 
+.content1 p{text-align:center;
+            padding:6px;
+            font-size:18px} 
 /*Center Part End*/
 
 /*For Responsive*/
 @media screen and (max-width:1120px){
 
-  .main-container{flex-direction:column;}
+.main-container{flex-direction:column;}
   
 .top h2{font-size:22px;}
 
 .top h1{font-size:27px;}
 
-  .img-container{flex-wrap:wrap;}
+.content1{width:250px;}
 
-  .content1{width:250px;}
+.content1 h4{font-size:13px;}
 
-  .content1 h4{font-size:13px;}
+.content1 h2{font-size:25px;}    
 
-  .content1 h2{font-size:25px;}    
-
-   .content1 p{font-size:16px;}
+.content1 p{font-size:16px;}
 }   
 
 @media screen and (max-width:650px){
@@ -579,20 +574,38 @@ strong{font-size:30px;}
 
 .top h1{font-size:24px;}
 
-  .img-container{flex-direction:column;}
+.img-container{flex-direction:column;}
 
-  .content1{width:270px;}
+.content1{width:270px;}
 
-  .content1 h4{font-size:11px;}
+.content1 h4{font-size:11px;}
 
-  .content1 h2{font-size:20px;}    
+.content1 h2{font-size:20px;}    
 
-   .content1 p{font-size:15px;}
+.content1 p{font-size:15px;}
 }   
 /*Responsive End*/
 /*Portfolio End*/
 
+/*Sitereport Start*/
 
+/*For Navbar Sitereport Menu Button Design*/
+.sitereport{border:1px solid #fff;
+          background-color:#fff;
+          color:#000;
+          border-radius:20px;
+          padding:3px 10px;}
 
+.sitereport:hover{box-shadow:2px 2px 5px #fff;}
+/*Navbar Sitereport Menu Button Design End*/
 
+.myexperience{margin:20px 10px;
+              }
+
+.myexperience h1{text-align:center;
+                 color:#00FFFF;}
+
+ .myexperience p{margin:15px;
+                 font-size:20px;
+                 color:#fff;}                
 
