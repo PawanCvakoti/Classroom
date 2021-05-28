@@ -433,15 +433,15 @@ form{font-size:12px;}
                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
 
 .icon4{width:55px;
-      cursor:pointer;
-      margin:10px 10px 0px 30px;
-      height:40px;}
+       cursor:pointer;
+       margin:10px 10px 0px 30px;
+       height:40px;}
 
 .education{display:flex;
            text-align:center;}
 
 .education h2{margin:15px;
-            text-align:center;}
+              text-align:center;}
 
 .education h2 span{color:#DC143C;}          
 
@@ -492,10 +492,10 @@ strong{font-size:30px;}
 
 /*For Navbar Portfolio Menu Button Design*/
 .portfolio{border:1px solid #fff;
-          background-color:#fff;
-          color:#000;
-          border-radius:20px;
-          padding:3px 10px;}
+           background-color:#fff;
+           color:#000;
+           border-radius:20px;
+           padding:3px 10px;}
 
 .portfolio:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar Portfolio Menu Button Design End*/
@@ -591,21 +591,42 @@ strong{font-size:30px;}
 
 /*For Navbar Sitereport Menu Button Design*/
 .sitereport{border:1px solid #fff;
-          background-color:#fff;
-          color:#000;
-          border-radius:20px;
-          padding:3px 10px;}
+            background-color:#fff;
+            color:#000;
+            border-radius:20px;
+            padding:3px 10px;}
 
 .sitereport:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar Sitereport Menu Button Design End*/
 
-.myexperience{margin:20px 10px;
-              }
+.myexperience{margin:20px 10px;}
 
 .myexperience h1{text-align:center;
-                 color:#00FFFF;}
+                 color: #7FFFD4;}
 
  .myexperience p{margin:15px;
                  font-size:20px;
-                 color:#fff;}                
+                 color:#fff;} 
 
+.exp-img1{display:flex;
+          align-items:center;
+          justify-content:center;}
+
+.img2{width:350px;
+      border:2px solid #e7c82f;
+      border-radius:10px;
+      height:200px;
+      margin:20px;
+      box-shadow: 10px 10px rgba(0,0,0,0.3);
+      transition:0.3s ease;}
+
+.img2:hover{transform:translateY(-25px);
+            box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
+          
+@media screen and (max-width:800px){
+
+.myexperience h1{font-size:25px;}
+
+.exp-img1{flex-direction:column;} 
+
+}
