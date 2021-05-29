@@ -261,7 +261,7 @@ form{font-size:17px;}
 
 #submit:hover{box-shadow:2px 2px 5px #FFE5B4;}
 
-#name{width:100%;}
+.name{width:100%;}
 /*Designing Center items End*/
 
 /*For Responsive*/
@@ -311,6 +311,13 @@ form{font-size:12px;}
 /*Navbar CV Menu Button Design End*/
 
 /*For Designing Center items */
+.top1{text-align:center;
+     margin:20px;}
+
+.top1 h1{color:#000;}
+
+.top1 h1{text-shadow:2px 2px 2px #d4af37;}
+
 .main2{display:flex;
       justify-content:center;
       flex-direction:column;
@@ -410,7 +417,7 @@ form{font-size:12px;}
 .p-30{width:30%;}
 
 .p-70{width:70%;}/*For showing skill percentage end*/ 
-/*Code Brain(2020)Building a resume using only HTML & CSS[online].Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 24 May 2021]*/
+/*Code Brain(2020)Building a resume using only HTML & CSS[online].Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
 
 .container2{display:flex;
             justify-content:center;
@@ -474,6 +481,22 @@ strong{font-size:30px;}
       border-radius:10px;
       padding:10px;
       height:50px;}
+
+.social{text-align:center;}
+
+.social h2{margin:10px;
+              text-align:center;}
+
+.social h2 span{color:#DC143C;} 
+
+.social-icon{display:flex;
+             justify-content:center;
+             align-items:center;}
+
+.icon6{width:60px;
+      cursor:pointer;
+      padding-right:20px;
+      height:45px;}            
 /*Designing Center items End*/
 
 /*For Responsive*/
@@ -483,6 +506,8 @@ strong{font-size:30px;}
   .container2{flex-direction:column;}
 
   .right-content{ margin:10px 0px 15px 10px;}
+
+  .top1 h1{font-size:24px;}
 
  }   
 /*Responsive End*/
@@ -601,32 +626,96 @@ strong{font-size:30px;}
 
 .myexperience{margin:20px 10px;}
 
+.myexperience a{text-decoration:none;}
+
 .myexperience h1{text-align:center;
-                 color: #7FFFD4;}
+                 color:#7FFFD4;
+                 margin-top:20px;}
 
- .myexperience p{margin:15px;
-                 font-size:20px;
-                 color:#fff;} 
+.myexperience h3{margin:15px;
+                 color: #7FFFD4;}                 
 
-.exp-img1{display:flex;
-          align-items:center;
-          justify-content:center;}
+.myexperience p{margin:15px;
+                font-size:20px;
+                color:#fff;}
+
+.myexperience h2{margin:15px;
+                  color:#0095FF;}
+
+.exp-img{display:flex;
+         align-items:center;
+         justify-content:center;}
 
 .img2{width:350px;
       border:2px solid #e7c82f;
       border-radius:10px;
-      height:200px;
+      height:230px;
       margin:20px;
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
 
 .img2:hover{transform:translateY(-25px);
+            box-shadow:10px 10px 10px rgba(0,0,0,0.6);}
+
+.img3{width:450px;
+      border:2px solid #e7c82f;
+      border-radius:10px;
+      height:300px;
+      margin:30px 20px 20px 20px;
+      box-shadow: 10px 10px rgba(0,0,0,0.3);
+      transition:0.3s ease;}
+
+.img3:hover{transform:translateY(-25px);
             box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
-          
+
+.myexperience span{color:#fff5ab;}
+
+.myexperience b{color:#ffcead;} 
+
+.myexperience .link{text-decoration:none;
+                    color:#F7A440;} 
+
+.img4{background-color:#FFE5B4;
+      width:350px;
+      border:2px solid #e7c82f;
+      border-radius:10px;
+      height:230px;
+      margin:30px 20px 20px 20px;
+      box-shadow: 10px 10px rgba(0,0,0,0.3);
+      transition:0.3s ease;}
+
+.img4:hover{transform:translateY(-25px);
+            box-shadow:10px 10px 10px rgba(0,0,0,0.6);}
+
+.exp-img1{display:flex;
+	      flex-direction:column;
+          align-items:center;
+          justify-content:center;}            
+
+.img5{background-color:#FFF;
+      width:300px;
+      border:2px solid #e7c82f;
+      border-radius:10px;
+      height:230px;
+      margin:30px 20px 20px 20px;
+      box-shadow: 10px 10px rgba(0,0,0,0.3);
+      transition:0.3s ease;}
+
+.img5:hover{transform:translateY(-25px);
+            box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
+
+.group1{display:flex;
+        align-items:center;
+        justify-content:center;}                                           
+
 @media screen and (max-width:800px){
 
 .myexperience h1{font-size:25px;}
 
-.exp-img1{flex-direction:column;} 
+.exp-img{flex-direction:column;} 
+
+.img3{width:300px;}
+
+.group1{flex-direction:column;}
 
 }
