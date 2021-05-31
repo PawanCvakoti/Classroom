@@ -226,6 +226,7 @@ button{font-size:13px;}
       margin-right:20px;
       border:1px solid #fff;
       background-color:#fff;
+      height:35px;
       border-radius:100%;
       padding:3px;
       box-shadow:2px 2px 5px #fff;}
@@ -269,7 +270,8 @@ form{font-size:17px;}
 
 .main1{flex-direction:column;}
 
-.icon1{width:30px;}
+.icon1{width:30px;
+       height:30px;}
 
 .contact1{margin:20px 0px 50px 0px;
           font-size:16px;}
@@ -280,7 +282,8 @@ form{font-size:17px;}
 
 @media screen and (max-width:540px){
 
-.icon1{width:27px;}
+.icon1{width:27px;
+       height:27px;}
 
 .contact1{font-size:13px;}
 
@@ -330,12 +333,10 @@ form{font-size:12px;}
               border:1px solid #FF0000;
               background-color:#fff;
               border-radius:20px;
-              z-index:0;
               transition:0.1s ease-in-out;
               margin-top:25px;}
 
 .left-content:hover{transform:scale(1.03);
-                    z-index:1;
                     box-shadow:10px 10px 10px rgba(0,0,0,0.6);}            
 
 .img-and-text{width:100%;
@@ -355,12 +356,10 @@ form{font-size:12px;}
               border-radius:20px;
               margin-top:25px;
               height:500px;
-              z-index:0;
               transition:0.1s ease-in-out;
               margin-bottom:10px;}
 
 .left-content1:hover{transform:scale(1.03);
-                    z-index:1;
                     box-shadow:10px 10px 10px rgba(0,0,0,0.6);}               
 
 .left-content1  h3{margin:20px;
@@ -372,6 +371,7 @@ form{font-size:12px;}
         margin-bottom:15px;}
 
 .icon2{width:25px;
+	    height:25px;
       cursor:pointer;
       margin:0px 15px;
       border:1px solid #fff;
@@ -431,12 +431,10 @@ form{font-size:12px;}
               background-color:#fff;
               border-radius:20px;
               margin:25px 0px 15px 30px;
-              z-index:0;
               transition:0.1s ease-in-out;
               height:775px;}
 
 .right-content:hover{transform:scale(1.03);
-                     z-index:1;
                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
 
 .icon4{width:55px;
@@ -505,7 +503,7 @@ strong{font-size:30px;}
 
   .container2{flex-direction:column;}
 
-  .right-content{ margin:10px 0px 15px 10px;}
+  .right-content{ margin:10px 0px 15px;}
 
   .top1 h1{font-size:24px;}
 
@@ -676,10 +674,10 @@ strong{font-size:30px;}
                     color:#F7A440;} 
 
 .img4{background-color:#FFE5B4;
-      width:350px;
+      width:200px;
       border:2px solid #e7c82f;
       border-radius:10px;
-      height:230px;
+      height:150px;
       margin:30px 20px 20px 20px;
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
@@ -693,10 +691,10 @@ strong{font-size:30px;}
           justify-content:center;}            
 
 .img5{background-color:#FFF;
-      width:300px;
+      width:200px;
       border:2px solid #e7c82f;
       border-radius:10px;
-      height:230px;
+      height:150px;
       margin:10px 20px 8px 20px;
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
