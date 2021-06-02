@@ -24,9 +24,13 @@ nav{display:flex;
     align-items:center;
     justify-content: space-between;
     font-family:sans-serif; 
-    text-shadow:2px 2px 5px #fff;
-    background-color: rgba(0,0,0,0.3);
-    padding:10px 0;}
+    background-color:#aaa9ad;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px 0;
+    text-shadow:1px 1px 1px #000;}
 
 #menu1{cursor:pointer;
        display:none;}
@@ -49,7 +53,8 @@ nav{display:flex;
       background-color:#fff;
       color:#000;
       border-radius:20px;
-      padding:3px 10px;}
+      padding:3px 10px;
+      text-shadow:1px 1px 1px #fff;}
 
 .home:hover{box-shadow:2px 2px 5px #fff;}
 
@@ -84,7 +89,6 @@ button{margin-right:30px;
         top:35%;
         left:40vw;
         transform:translate(-50%);
-        z-index:2;
         word-spacing:5px;
         font-size:2vw;}
 
@@ -124,8 +128,10 @@ button{margin-right:30px;
 /*For Responsive*/
 @media screen and (max-width:770px){
 
-nav{flex-direction: column;
-    width:100%;}
+nav{flex-direction:column;
+    width:100%;
+    position:fixed;
+    padding:20px 0px;}
 
 nav ul li{font-size:2.5vw;
           padding:10px;
@@ -135,11 +141,11 @@ nav ul li{font-size:2.5vw;
 #menu1{display:block;
        position:fixed;
        left:10px;
-       top:15px;
-       color:#fff;
-       width:3%;}         
-
-.change .two{background-color: white;}
+       border:1px solid #000;
+       border-radius:5px;
+       padding:8px;
+       background-color:#DDDDDA;
+       margin-top:-13px;}         
 
 .change #one{transform: translateY(3px) rotateZ(-45deg);}
 
@@ -168,13 +174,15 @@ nav .list{transition:0.5s ease;
 button{font-size:15px;
        position:fixed;
        right:10px;
-       top:12px;} 
-  }
+       margin-top:-12px;} 
+}
 
  
 @media screen and (max-width:540px) {
 
 nav ul li{font-size:2.9vw;}
+
+.two{width:19px;}
 
 .content{font-size:2.8vw;}
 
@@ -210,16 +218,18 @@ button{font-size:13px;}
          background-color:#fff;
          color:#000;
          border-radius:20px;
-         padding:3px 10px;}
+         padding:3px 10px;
+         text-shadow:1px 1px 1px #fff;}
 
 .contact:hover{box-shadow:2px 2px 5px #fff;}
 /* Navbar Contact Menu Button Design End*/
 
 /*For Designing Center items*/
-.main1{display:flex;
+.main1{display:grid;
        justify-content:center;
        align-items:center;
-       margin:30px auto;}
+       margin:100px auto 30px;
+       grid-template-columns:auto auto;}
 
 .icon1{width:35px;
       cursor:pointer;
@@ -235,10 +245,10 @@ button{font-size:13px;}
         margin-bottom:35px;}
 
 .contact1{color:#FFF;
-         font-size:19px;
-         margin-right:250px;}
+          font-size:19px;
+          margin-right:250px;}
 
-.headpart span{color:#Afff;
+.info span{color:#Afff;
            font-size:27px;}
 
 .contact2{background-color:rgba(0,0,0,0.3);
@@ -246,7 +256,7 @@ button{font-size:13px;}
           color:#fff;
           transition:0.3s ease;}
 
- .contact2:hover{transform:translateY(-20px);
+.contact2:hover{transform:translateY(-20px);
                  box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
 
 .contact2 h1{margin:30px;}
@@ -268,16 +278,16 @@ form{font-size:17px;}
 /*For Responsive*/
 @media screen and (max-width:960px){
 
-.main1{flex-direction:column;}
+.main1{grid-template-columns:auto;
+       grid-template-rows:auto auto;}
 
 .icon1{width:30px;
        height:30px;}
 
-.contact1{margin:20px 0px 50px 0px;
+.contact1{margin:20px auto 50px;
           font-size:16px;}
 
-.headpart span{font-size:22px;}
-
+.info span{font-size:22px;}
 }
 
 @media screen and (max-width:540px){
@@ -287,7 +297,7 @@ form{font-size:17px;}
 
 .contact1{font-size:13px;}
 
-.headpart span{font-size:16px;}
+.info span{font-size:16px;}
 
 .contact2{padding:0 70px 30px 70px;}
 
@@ -308,23 +318,26 @@ form{font-size:12px;}
     background-color:#fff;
     color:#000;
     border-radius:20px;
-    padding:3px 10px;}
+    padding:3px 10px;
+    text-shadow:1px 1px 1px #fff;}
 
 .CV:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar CV Menu Button Design End*/
 
 /*For Designing Center items */
 .top1{text-align:center;
-     margin:20px;}
+     margin:80px 20px 20px;}
 
 .top1 h1{color:#000;}
 
 .top1 h1{text-shadow:2px 2px 2px #d4af37;}
 
-.main2{display:flex;
-      justify-content:center;
-      flex-direction:column;
-      align-items:center;}
+.main2{display:grid;
+       grid-template-columns:auto auto;
+       grid-template-rows:auto auto;
+       justify-content: center;
+       align-content:center;
+       margin:10px auto;}
 
 .left-content{display:flex;
               flex-direction:column;
@@ -334,14 +347,12 @@ form{font-size:12px;}
               background-color:#fff;
               border-radius:20px;
               transition:0.1s ease-in-out;
-              margin-top:25px;}
+              margin-top:25px;
+              height:250px;
+              color:#DC143C;}
 
 .left-content:hover{transform:scale(1.03);
                     box-shadow:10px 10px 10px rgba(0,0,0,0.6);}            
-
-.img-and-text{width:100%;
-              height:250px;
-              color:#DC143C;}
 
 .img1{width:100%;
       height:220px;
@@ -354,10 +365,9 @@ form{font-size:12px;}
               border:1px solid rgba(0,0,0,0.5);
               background-color:rgba(0,0,0,0.5);
               border-radius:20px;
-              margin-top:25px;
+              margin:25px auto 10px;
               height:500px;
-              transition:0.1s ease-in-out;
-              margin-bottom:10px;}
+              transition:0.1s ease-in-out;}
 
 .left-content1:hover{transform:scale(1.03);
                     box-shadow:10px 10px 10px rgba(0,0,0,0.6);}               
@@ -365,7 +375,6 @@ form{font-size:12px;}
 .left-content1  h3{margin:20px;
                   text-align:center;
                   color:#fff;}       
-
 
 .items2{display:flex;
         margin-bottom:15px;}
@@ -403,9 +412,9 @@ form{font-size:12px;}
             margin:20px;}
 
 .inside{height:9px;
-         border:1px solid #FFE5B4;
-         background:#FFE5B4;
-         border-radius:20px;}           
+        border:1px solid #FFE5B4;
+        background:#FFE5B4;
+        border-radius:20px;}           
 
 .outside{margin-top:5px;
          height:10px;
@@ -419,11 +428,6 @@ form{font-size:12px;}
 .p-70{width:70%;}/*For showing skill percentage end*/ 
 /*Code Brain(2020)Building a resume using only HTML & CSS[online].Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
 
-.container2{display:flex;
-            justify-content:center;
-            align-items:center;
-            margin-top: 15px;}
-
 .right-content{display:flex;
               flex-direction:column;
               width:300px;
@@ -432,7 +436,9 @@ form{font-size:12px;}
               border-radius:20px;
               margin:25px 0px 15px 30px;
               transition:0.1s ease-in-out;
-              height:775px;}
+              height:775px;
+              grid-row: 1 / span 2;
+              grid-column:2;}
 
 .right-content:hover{transform:scale(1.03);
                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}             
@@ -483,7 +489,7 @@ strong{font-size:30px;}
 .social{text-align:center;}
 
 .social h2{margin:10px;
-              text-align:center;}
+           text-align:center;}
 
 .social h2 span{color:#DC143C;} 
 
@@ -499,15 +505,17 @@ strong{font-size:30px;}
 
 /*For Responsive*/
 
- @media screen and (max-width:660px){
+ @media screen and (max-width:665px){
 
-  .container2{flex-direction:column;}
+.main2{grid-template-columns:auto;
+       grid-template-rows:auto auto auto;}
+   
+.right-content{grid-row:3;
+              grid-column:1;
+              margin:10px 0px 15px;}
 
-  .right-content{ margin:10px 0px 15px;}
-
-  .top1 h1{font-size:24px;}
-
- }   
+.top1 h1{font-size:24px;}
+}   
 /*Responsive End*/
 /*CV End*/
 
@@ -518,14 +526,15 @@ strong{font-size:30px;}
            background-color:#fff;
            color:#000;
            border-radius:20px;
-           padding:3px 10px;}
+           padding:3px 10px;
+           text-shadow:1px 1px 1px #fff;}
 
 .portfolio:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar Portfolio Menu Button Design End*/
 
 /*For Heading Part*/
 .top{text-align:center;
-     margin:20px;}
+     margin:80px 20px 20px;}
 
 .top h2{color:#fff;}
  
@@ -536,18 +545,14 @@ strong{font-size:30px;}
 
 /*For Center Part*/
 
-.main-container{display:flex;
-                justify-content:center;
-                align-items:center;
-                margin:30px;}
+.img-container{display:grid;
+               grid-template-columns: auto auto auto;
+               grid-gap:55px;
+               justify-content: center;
+               align-content: center;
+               margin:50px auto;}
 
-.img-container{display:flex;}
-
- .group{display:flex;
-        flex-direction:column;}             
-
-.content1{margin:20px;
-          width:240px;
+.content1{width:240px;
           background-color:#FFE5B4;
           border:1px solid #FFE5B4;
           box-shadow: 10px 10px rgba(0,0,0,0.3);
@@ -574,9 +579,9 @@ strong{font-size:30px;}
 /*Center Part End*/
 
 /*For Responsive*/
-@media screen and (max-width:1120px){
+@media screen and (max-width:850px){
 
-.main-container{flex-direction:column;}
+.img-container{grid-template-columns:auto auto;}
   
 .top h2{font-size:22px;}
 
@@ -591,15 +596,15 @@ strong{font-size:30px;}
 .content1 p{font-size:16px;}
 }   
 
-@media screen and (max-width:650px){
+@media screen and (max-width:580px){
+
+.img-container{grid-template-columns:auto;}   
 
 .top h2{font-size:20px;}
 
 .top h1{font-size:24px;}
 
-.img-container{flex-direction:column;}
-
-.content1{width:270px;}
+.content1{width:240px;}
 
 .content1 h4{font-size:11px;}
 
@@ -617,12 +622,14 @@ strong{font-size:30px;}
             background-color:#fff;
             color:#000;
             border-radius:20px;
-            padding:3px 10px;}
+            padding:3px 10px;
+            text-shadow:1px 1px 1px #fff;}
 
 .sitereport:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar Sitereport Menu Button Design End*/
 
-.myexperience{margin:20px 10px;}
+/*Center content Start*/
+.myexperience{margin:80px 10px 20px;}
 
 .myexperience a{text-decoration:none;}
 
@@ -712,8 +719,10 @@ strong{font-size:30px;}
 
 .exp-img{flex-direction:column;} 
 
-.img3{width:300px;}
+.img3{width:350px;
+      height:230px;}
 
 .group1{flex-direction:column;}
-
 }
+/*Center content End*/
+/*Sitereport End*/
