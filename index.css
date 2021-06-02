@@ -73,18 +73,17 @@ nav ul li a{text-decoration:none;
 nav ul li a:hover{color:#e7c82f;  
                   text-shadow:5px 5px 20px  #e7c82f;}
 
-button{margin-right:30px;
-       margin-left: 10px;
+button{margin:auto 20px;
        border:1px solid #fff;
        background:#fff;
        border-radius:20px;
        padding:3px 5px;
        cursor:pointer;
        font-size:18px;
-       box-shadow:2px 2px 5px #fff}
+       box-shadow:2px 2px 5px #fff;}
 /*Navigation Menu End*/
 
-/* For Designing Center Content*/
+/* For Designing Center Contents*/
 .content{position:fixed;
         top:35%;
         left:40vw;
@@ -123,9 +122,9 @@ button{margin-right:30px;
 
 .effect:hover{color: #e7c82f;  
               text-shadow:5px 5px 20px  #e7c82f;}
-/*Designing Center Content End*/
+/*Designing Center Contents End*/
 
-/*For Responsive*/
+/*For Responsive Design*/
 @media screen and (max-width:770px){
 
 nav{flex-direction:column;
@@ -177,7 +176,6 @@ button{font-size:15px;
        margin-top:-12px;} 
 }
 
- 
 @media screen and (max-width:540px) {
 
 nav ul li{font-size:2.9vw;}
@@ -197,7 +195,7 @@ nav ul li{font-size:2.9vw;}
 
 button{font-size:13px;} 
 }
-/*Responsive End*/
+/*Responsive Design End*/
 /*Home End*/
 
 /*Contact*/
@@ -224,7 +222,7 @@ button{font-size:13px;}
 .contact:hover{box-shadow:2px 2px 5px #fff;}
 /* Navbar Contact Menu Button Design End*/
 
-/*For Designing Center items*/
+/*For Designing Center Contents*/
 .main1{display:grid;
        justify-content:center;
        align-items:center;
@@ -273,9 +271,9 @@ form{font-size:17px;}
 #submit:hover{box-shadow:2px 2px 5px #FFE5B4;}
 
 .name{width:100%;}
-/*Designing Center items End*/
+/*Designing Center Contents End*/
 
-/*For Responsive*/
+/*For Responsive Design*/
 @media screen and (max-width:960px){
 
 .main1{grid-template-columns:auto;
@@ -308,7 +306,7 @@ form{font-size:12px;}
 #submit{padding:4px 8px;
         font-size:12px;}
 }
-/*Responsive End*/
+/*Responsive Design End*/
 /*Contact End*/
 
 /*CV*/
@@ -324,7 +322,7 @@ form{font-size:12px;}
 .CV:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar CV Menu Button Design End*/
 
-/*For Designing Center items */
+/*For Designing Center Contents*/
 .top1{text-align:center;
      margin:80px 20px 20px;}
 
@@ -501,10 +499,9 @@ strong{font-size:30px;}
       cursor:pointer;
       padding-right:20px;
       height:45px;}            
-/*Designing Center items End*/
+/*Designing Center Content End*/
 
-/*For Responsive*/
-
+/*For Responsive Design*/
  @media screen and (max-width:665px){
 
 .main2{grid-template-columns:auto;
@@ -516,7 +513,7 @@ strong{font-size:30px;}
 
 .top1 h1{font-size:24px;}
 }   
-/*Responsive End*/
+/*Responsive Design End*/
 /*CV End*/
 
 /*Portfolio*/
@@ -543,8 +540,7 @@ strong{font-size:30px;}
 .top h1 span{color:#000;}
 /*Heading Part End*/
 
-/*For Center Part*/
-
+/*For Designing Center Content*/
 .img-container{display:grid;
                grid-template-columns: auto auto auto;
                grid-gap:55px;
@@ -576,9 +572,9 @@ strong{font-size:30px;}
 .content1 p{text-align:center;
             padding:6px;
             font-size:18px} 
-/*Center Part End*/
+/*Designing Center Content End*/
 
-/*For Responsive*/
+/*For Responsive Design*/
 @media screen and (max-width:850px){
 
 .img-container{grid-template-columns:auto auto;}
@@ -628,7 +624,7 @@ strong{font-size:30px;}
 .sitereport:hover{box-shadow:2px 2px 5px #fff;}
 /*Navbar Sitereport Menu Button Design End*/
 
-/*Center content Start*/
+/*For Designing Center content Start*/
 .myexperience{margin:80px 10px 20px;}
 
 .myexperience a{text-decoration:none;}
@@ -711,9 +707,11 @@ strong{font-size:30px;}
 
 .group1{display:flex;
         align-items:center;
-        justify-content:center;}                                           
+        justify-content:center;}
+/*Designing Center content End*/                                           
 
-@media screen and (max-width:800px){
+/*For Responsive Design*/
+@media screen and (max-width:810px){
 
 .myexperience h1{font-size:25px;}
 
@@ -724,5 +722,5 @@ strong{font-size:30px;}
 
 .group1{flex-direction:column;}
 }
-/*Center content End*/
+/*Responsive Design End*/
 /*Sitereport End*/
