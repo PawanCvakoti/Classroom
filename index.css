@@ -91,37 +91,64 @@ button{margin:auto 20px;
         word-spacing:5px;
         font-size:2vw;}
 
-.content h4{color:#FF0000;
-            width:20%;}
-
-.content h4:hover{text-shadow:2px 2px 5px #FF0000;}
+.content h4{color:#F96167;
+            width:20%;
+            text-shadow:1px 1px 1px #FCE77D, 2px 2px 3px #4A171E;}
 
 .content h1{color:#FFE5B4;
             padding-left:30px;
-            font-size:3vw;}
-
-.content h1:hover{text-shadow:2px 2px 5px #FFE5B4;}
+            font-size:3vw;
+            text-shadow:1px 1px 2px #FFE5B4, 1px 1px 2px #F70025;}
 
 .content h1 span{padding-left:100px;  
-                 color:#FF0000;}
+                 color:#F70025;
+                 text-shadow:1px 1px 2px #FFE5B4, 1px 1px 2px #4A171E;}
 
-.content h2{color:#fff;
-            background-color:#003366;
-            width:25vw;}
+.content h2{background-color:#FEE715FF;
+            color:#101820FF;
+            width:25vw;
+            transition:0.3s ease;}
 
-.content h2:hover{background-color:#fff;
-                  color:#003366;}
+.content h2:hover{color:#FEE715FF;
+                  background-color:#101820FF;
+                  transform:scale(1.03);
+                  box-shadow:10px 10px 10px rgba(0,0,0,0.6);}
 
 .effect{text-decoration:none;
-        color:#0000FF;
+        color:#EC4D37;
         font-size:5vw;
-        padding-left:19vw;}
+        padding-left:19vw;
+        text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;
+        animation:textA 1s ease infinite;}
 
-.effect span{color:#FF0000;}
+.effect span{color:#1D1B1B;
+             text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;
+             animation:textB 1s ease infinite;}
+
+@keyframes textA{
+
+    0%{color:#EC4D37;
+       text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}
+
+    50%{color:#1D1B1B;
+        text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
+
+    100%{color:#EC4D37;
+         text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}              
+}
+
+@keyframes textB{
+
+    0%{color:#1D1B1B;
+       text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
+
+    50%{color:#EC4D37;
+        text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;} 
+
+    100%{color:#1D1B1B;
+         text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
+}                     
 /*For Port*/
-
-.effect:hover{color: #e7c82f;  
-              text-shadow:5px 5px 20px  #e7c82f;}
 /*Designing Center Contents End*/
 
 /*For Responsive Design*/
