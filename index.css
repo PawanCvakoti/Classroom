@@ -85,9 +85,8 @@ button{margin:auto 20px;
 
 /* For Designing Center Contents*/
 .content{position:fixed;
-        top:36%;
-        left:40vw;
-        transform:translate(-50%);
+        top:38%;
+        left:26vw;
         word-spacing:5px;
         font-size:2vw;}
 
@@ -186,7 +185,7 @@ nav .list{transition:0.5s ease;
  /*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi
 [Online].Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/
 
-.content{left:43vw;
+.content{left:26vw;
          font-size:2.5vw;}
 
 .content h4{font-size:3.2vw;}
@@ -209,7 +208,8 @@ nav ul li{font-size:3.2vw;}
 
 .two{width:19px;}
 
-.content{font-size:2.8vw;}
+.content{font-size:2.8vw;
+         left:16vw;}
 
 .content h4{font-size:4.5vw;}
 
@@ -221,6 +221,19 @@ nav ul li{font-size:3.2vw;}
 .effect{font-size:9vw;}
 
 button{font-size:13px;} 
+}
+
+@media screen and (max-width:330px){
+
+nav ul li{font-size:3.7vw;}
+
+#menu1{padding:7px;
+       margin-top:-11px;}
+
+.two{width:15px;}
+
+button{font-size:13px;
+       padding:2px 4px;} 
 }
 /*Responsive Design End*/
 /*Home End*/
@@ -332,6 +345,25 @@ form{font-size:12px;}
 
 #submit{padding:4px 8px;
         font-size:12px;}
+}
+
+@media screen and (max-width:330px){
+
+ .icon1{width:25px;
+       height:25px;}
+
+.contact1{font-size:12px;}
+
+.info span{font-size:12px;}
+
+.contact2{padding:0 50px 30px 50px;}
+
+.contact2 h1{font-size:21px;}
+
+form{font-size:12px;}
+
+#submit{padding:4px 7px;
+        font-size:11px;}
 }
 /*Responsive Design End*/
 /*Contact End*/
@@ -538,7 +570,61 @@ strong{font-size:30px;}
               margin:10px 0px 15px;}
 
 .top1 h1{font-size:24px;}
-}   
+} 
+
+@media screen and (max-width:310px){ 
+
+.top1{margin:80px 20px 10px;} 
+
+.top1 h1{font-size:20px;}
+
+.left-content{width:270px;
+              height:230px;}
+
+.left-content h3{font-size:16px;}             
+
+.img1{height:208px;}             
+
+.left-content1{width:270px;
+              height:460px;} 
+
+.left-content1 h3{font-size:16px;}       
+
+.head1{font-size:14px;}     
+
+.head1 span{font-size:16px;}
+
+.icon3{width:50px;
+      height:35px;}           
+
+/*For showing skill percentage start*/                  
+.inside{height:8px;}           
+
+.outside{height:9px;}
+/*For showing skill percentage End*/                         
+   
+.right-content{width:270px;
+              height:760px;}
+
+.icon5{width:60px;
+      margin:8px 15px 0px 20px;
+      padding:8px;
+      height:45px;}
+
+.icon4{width:50px;
+       height:35px;}
+
+.education h2{font-size:20px;}
+
+.experience h2{font-size:20px;}
+
+.interest h2{font-size:20px;}
+
+.social h2{font-size:20px;}
+
+.icon6{width:55px;
+      height:40px;}     
+}  
 /*Responsive Design End*/
 /*CV End*/
 
@@ -560,8 +646,8 @@ strong{font-size:30px;}
      margin:80px 20px 20px;}
 
 .top h2{color:#fff;
-            text-shadow:3px 0 0 #ff0000, -2px -3px 0 #008000, 2px 3px 0 #0000ff;
-            animation:shadow 2s linear infinite;}
+        text-shadow:3px 0 0 #ff0000, -2px -3px 0 #008000, 2px 3px 0 #0000ff;
+        animation:shadow 2s linear infinite;}
 
 @keyframes shadow{
   0%{text-shadow:3px 0 0 #ff0000, -2px -3px 0 #008000, 2px 3px 0 #0000ff;}
@@ -576,10 +662,10 @@ strong{font-size:30px;}
 }              
 
 .top h1{color:#FF0000;
-            text-shadow:1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000;}
+        text-shadow:1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000;}
 
 .top h1 span{color:#000;
-                  text-shadow:1px 1px 2px #FF0000, 1px 1px 2px #F70025, 1px 1px 2px #000;}                  
+             text-shadow:1px 1px 2px #FF0000, 1px 1px 2px #F70025, 1px 1px 2px #000;}                  
 /*Heading Part End*/
 
 /*For Designing Center Content*/
@@ -636,7 +722,8 @@ strong{font-size:30px;}
 
 @media screen and (max-width:580px){
 
-.img-container{grid-template-columns:auto;}   
+.img-container{grid-template-columns:auto;
+               grid-gap:45px;}  
 
 .top h2{font-size:20px;}
 
@@ -649,6 +736,21 @@ strong{font-size:30px;}
 .content1 h2{font-size:20px;}    
 
 .content1 p{font-size:15px;}
+}
+
+@media screen and (max-width:300px){
+
+.top h2{font-size:18px;}
+
+.top h1{font-size:20px;}
+
+ .img-container{margin:40px auto;}
+
+.content1{width:210px;}
+
+.img{height:150px;}    
+      
+.content1 h2{font-size:18px;}
 }   
 /*Responsive End*/
 /*Portfolio End*/
