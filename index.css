@@ -32,7 +32,7 @@ nav{display:flex;
     padding:10px 0;
     text-shadow:1px 1px 1px #000;}
 
-#menu1{cursor:pointer;
+#menu1{cursor:pointer;/*Start*/
        display:none;}
 
 #menu1:hover{box-shadow:2px 2px 5px #000;}
@@ -45,10 +45,9 @@ nav{display:flex;
 
 #one{transform: translateY(-4px);}
 
-#one2{transform: translateY(4px);}
-  /*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi
-[Online].Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/  
-
+#one2{transform: translateY(4px);}/*End*/
+/*(Hrishi Computer Education, 2020)*/
+  
 .home{border:1px solid #fff;
       background-color:#fff;
       color:#000;
@@ -122,15 +121,16 @@ button{margin:auto 20px;
 
 @keyframes textA{
 
-    0%{color:#EC4D37;
-       text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}
+  0%{color:#EC4D37;
+     text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}
 
-    50%{color:#1D1B1B;
-        text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
+  50%{color:#1D1B1B;
+      text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
 
-    100%{color:#EC4D37;
-         text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}              
+  100%{color:#EC4D37;
+       text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}              
 }
+/*For Folio*/
 
 .effect span{color:#1D1B1B;
              text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;
@@ -138,14 +138,14 @@ button{margin:auto 20px;
 
 @keyframes textB{
 
-    0%{color:#1D1B1B;
-       text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
+  0%{color:#1D1B1B;
+     text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}
 
-    50%{color:#EC4D37;
-        text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;} 
+  50%{color:#EC4D37;
+      text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;} 
 
-    100%{color:#1D1B1B;
-         text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
+  100%{color:#1D1B1B;
+       text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
 }                     
 /*For Port*/
 /*Designing Center Contents End*/
@@ -163,7 +163,7 @@ nav ul li{font-size:2.5vw;
           text-align: center;
           display:block;}
 
-#menu1{display:block;
+#menu1{display:block;/*Start*/
        position:fixed;
        left:10px;
        border:1px solid #000;
@@ -176,14 +176,14 @@ nav ul li{font-size:2.5vw;
 
 .change #one2{transform: translateY(-3px) rotateZ(45deg);}
 
-.change #one1{opacity:0;}
+.change #one1{opacity:0;}/*End*/
+/*(Hrishi Computer Education, 2020)*/
 
-nav .list{transition:0.5s ease;
+nav .list{transition:0.5s ease;/*Start*/
           display:none;}
 
-.list.change1{display:block;}
- /*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi
-[Online].Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/
+.list.change1{display:block;}/*End*/
+/*(TubeMint, 2019)*/
 
 .content{left:26vw;
          font-size:2.5vw;}
@@ -202,7 +202,7 @@ button{font-size:15px;
        margin-top:-12px;} 
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:540px){
 
 nav ul li{font-size:3.2vw;}
 
@@ -481,8 +481,8 @@ form{font-size:12px;}
 
 .p-30{width:30%;}
 
-.p-70{width:70%;}/*For showing skill percentage end*/ 
-/*Code Brain(2020)Building a resume using only HTML & CSS[online].Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
+.p-70{width:70%;}/*For showing skill percentage end*/
+/*(Code Brain, 2020)*/ 
 
 .right-content{display:flex;
               flex-direction:column;
@@ -601,7 +601,8 @@ strong{font-size:30px;}
 .inside{height:8px;}           
 
 .outside{height:9px;}
-/*For showing skill percentage End*/                         
+/*For showing skill percentage End*/
+/*(Code Brain, 2020)*/                         
    
 .right-content{width:270px;
               height:760px;}
@@ -744,7 +745,7 @@ strong{font-size:30px;}
 
 .top h1{font-size:20px;}
 
- .img-container{margin:40px auto;}
+.img-container{margin:40px auto;}
 
 .content1{width:210px;}
 
@@ -876,14 +877,42 @@ strong{font-size:30px;}
 
   100%{grid-row:2;
       grid-column:1;}
-} 
+}
 
-.exp-img{display:flex;
-         align-items:center;
-         justify-content:center;}                
+.grid-img1{display:grid;
+          grid-template-columns:auto auto;
+          justify-content:center;
+          align-content:center;}
+
+.img-text{text-align:center;}
+
+.grid-img2{display:grid;
+          grid-template-columns:auto;
+          justify-content:center;
+          align-items:center;}
+
+.exp-img{display:grid;
+        grid-template-columns:auto auto;
+        justify-content:center;
+        align-content:center;}
+
+.grid-img3{display:grid;
+           grid-template-rows:auto auto;
+           justify-content:center;
+           align-content:center;}
+
+.grid-img4{display:grid;
+           grid-template-columns:auto auto auto;
+           justify-content:center;
+           align-content:center;}
+
+.exp-img1{display:flex;
+           flex-direction:column;
+           justify-content:center;
+            align-items:center;}                                              
 
 .img2{width:350px;
-      border:2px solid #e7c82f;
+      border:3px solid #e7c82f;
       border-radius:10px;
       height:230px;
       margin:20px;
@@ -894,7 +923,7 @@ strong{font-size:30px;}
             box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}
 
 .img3{width:450px;
-      border:2px solid #e7c82f;
+      border:3px solid #e7c82f;
       border-radius:10px;
       height:300px;
       margin:30px 20px 20px 20px;
@@ -916,7 +945,7 @@ strong{font-size:30px;}
 
 .img4{background-color:#FFE5B4;
       width:200px;
-      border:2px solid #e7c82f;
+      border:3px solid #e7c82f;
       border-radius:10px;
       height:150px;
       margin:30px 20px 20px 20px;
@@ -930,14 +959,9 @@ strong{font-size:30px;}
         align-items:center;
         justify-content:center;}            
 
-.exp-img1{display:flex;
-	      flex-direction:column;
-          align-items:center;
-          justify-content:center;}            
-
 .img5{background-color:#FFF;
       width:200px;
-      border:2px solid #e7c82f;
+      border:3px solid #e7c82f;
       border-radius:10px;
       height:150px;
       margin:10px 20px 8px 20px;
@@ -949,11 +973,20 @@ strong{font-size:30px;}
 /*Designing Center content End*/                                           
 
 /*For Responsive Design*/
-@media screen and (max-width:810px){
+@media screen and (max-width:1020px){
+
+.grid-img1{grid-template-columns:auto;}
+
+.exp-img{grid-template-columns:auto;}
+
+.grid-img4{ grid-template-columns:auto auto;}
+}
+
+@media screen and (max-width:770px){
 
 .myexperience h1{font-size:25px;}
 
-.exp-img{flex-direction:column;} 
+.exp-img{grid-template-columns:auto;}
 
 .grid-img{grid-template-columns:auto;}
 
@@ -1021,6 +1054,7 @@ strong{font-size:30px;}
       grid-column:1;}
 
 @keyframes img9{
+
   0%{grid-row:4;
       grid-column:1;}
 
@@ -1036,11 +1070,61 @@ strong{font-size:30px;}
   100%{grid-row:4;
       grid-column:1;}
 }
+}
+
+@media screen and (max-width:600px){
+
+.grid-img4{ grid-template-columns:auto;}
 
 .img3{width:350px;
       height:230px;}
-
-.group1{flex-direction:column;}
 }
+
+@media screen and (max-width:390px){
+
+.img2{width:300px;
+      height:200px;}
+
+.img3{width:300px;
+      height:200px}
+
+.img4{width:130px;
+      height:90px}
+
+.img5{width:130px;
+      height:90px}
+} 
+
+@media screen and (max-width:340px){
+
+  .myexperience h1{font-size:23px;}
+
+.myexperience h3{font-size:15px;}                 
+
+.myexperience p{font-size:14px;}
+
+.myexperience h2{font-size:20px;}
+
+.img2{width:240px;
+      height:180px;}
+
+.img3{width:240px;
+      height:180px;}
+
+.img4{width:100px;
+      height:70px}
+
+.img5{width:100px;
+      height:70px}      
+}              
 /*Responsive Design End*/
 /*Sitereport End*/
+
+/*Hrishi Computer Education(2020)Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi. YouTube[Online].
+Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/
+
+/*TubeMint(2019)How to create hamburger menu With HTML,CSS,&JAVASCRIPT. YouTube[Online].
+Available from:https://www.youtube.com/watch?v=8r3hGIvyP3k[Accessed 25 May 2021]*/
+
+/*Code Brain(2020)Building a resume using only HTML & CSS. YouTube[online].
+Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
