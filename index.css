@@ -32,10 +32,10 @@ nav{display:flex;
     padding:10px 0;
     text-shadow:1px 1px 1px #000;}
 
-#menu1{cursor:pointer;/*Start*/
-       display:none;}
+#ham_menu{cursor:pointer;/*Start*/
+          display:none;}
 
-#menu1:hover{box-shadow:2px 2px 5px #000;}
+#ham_menu:hover{box-shadow:2px 2px 5px #000;}
 
 .two{height:3px;
      width:22px;
@@ -46,7 +46,7 @@ nav{display:flex;
 #one{transform: translateY(-4px);}
 
 #one2{transform: translateY(4px);}/*End*/
-/*(Hrishi Computer Education, 2020)*/
+/*(Code Spot, 2018)*/
   
 .home{border:1px solid #fff;
       background-color:#fff;
@@ -156,34 +156,28 @@ button{margin:auto 20px;
 nav{flex-direction:column;
     width:100%;
     position:fixed;
-    padding:20px 0px;}
+    padding:20px 0px;
+    z-index:1;}
 
 nav ul li{font-size:2.5vw;
           padding:10px;
           text-align: center;
           display:block;}
 
-#menu1{display:block;/*Start*/
-       position:fixed;
-       left:10px;
-       border:1px solid #000;
-       border-radius:5px;
-       padding:8px;
-       background-color:#DDDDDA;
-       margin-top:-13px;}         
+#ham_menu{display:block;/*Start*/
+          position:fixed;
+          left:10px;
+          border:1px solid #000;
+          border-radius:5px;
+          padding:8px;
+          background-color:#DDDDDA;
+          margin-top:-13px;}         
 
-.change #one{transform: translateY(3px) rotateZ(-45deg);}
+.list{transition:0.5s ease;
+      display:none;}
 
-.change #one2{transform: translateY(-3px) rotateZ(45deg);}
-
-.change #one1{opacity:0;}/*End*/
-/*(Hrishi Computer Education, 2020)*/
-
-nav .list{transition:0.5s ease;/*Start*/
-          display:none;}
-
-.list.change1{display:block;}/*End*/
-/*(TubeMint, 2019)*/
+.cross{display:block;}/*End*/
+/*(Code Spot, 2018)*/
 
 .content{left:26vw;
          font-size:2.5vw;}
@@ -199,7 +193,7 @@ nav .list{transition:0.5s ease;/*Start*/
 button{font-size:15px;
        position:fixed;
        right:10px;
-       margin-top:-12px;} 
+       margin-top:-11px;} 
 }
 
 @media screen and (max-width:540px){
@@ -227,7 +221,7 @@ button{font-size:13px;}
 
 nav ul li{font-size:3.7vw;}
 
-#menu1{padding:7px;
+#ham_menu{padding:7px;
        margin-top:-11px;}
 
 .two{width:15px;}
@@ -1122,11 +1116,8 @@ strong{font-size:30px;}
 /*Responsive Design End*/
 /*Sitereport End*/
 
-/*Hrishi Computer Education (2020) Pure CSS Hamburger Menu|CSS Beginner's Guide in Hindi. YouTube[Online].
-Available from:https://www.youtube.com/watch?v=2jtnMjPVxvI[Accessed 25 May 2021]*/
-
-/*TubeMint (2019) How to create hamburger menu With HTML,CSS,&JAVASCRIPT. YouTube[Online].
-Available from:https://www.youtube.com/watch?v=8r3hGIvyP3k[Accessed 25 May 2021]*/
+/*Code Spot (2018) Easy Hamburger Menu Animation using HTML, CSS [For Beginners].YouTube[Online]. 
+  Available from:https://www.youtube.com/watch?v=F-mvXKKoSCU[Accessed 19 JUN 2021]*/
 
 /*Code Brain (2020) Building a resume using only HTML & CSS. YouTube[online].
 Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
