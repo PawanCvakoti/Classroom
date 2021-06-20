@@ -22,7 +22,7 @@ html{scroll-behavior: smooth;}
   /*For Navigation Menu*/
 nav{display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content:space-between;
     font-family:sans-serif; 
     background-color:#aaa9ad;
     position:fixed;
@@ -30,7 +30,7 @@ nav{display:flex;
     left:0;
     right:0;
     padding:10px 0;
-    text-shadow:1px 1px 1px #000;}
+    text-shadow:1px 1px 1px #000; z-index:1;}
 
 #ham_menu{cursor:pointer;/*Start*/
           display:none;}
@@ -43,9 +43,9 @@ nav{display:flex;
      background-color:#000;
      transition:0.3s ease;}
 
-#one{transform: translateY(-4px);}
+#one{transform:translateY(-4px);}
 
-#one2{transform: translateY(4px);}/*End*/
+#one2{transform:translateY(4px);}/*End*/
 /*(Code Spot, 2018)*/
   
 .home{border:1px solid #fff;
@@ -84,10 +84,10 @@ button{margin:auto 20px;
 
 /* For Designing Center Contents*/
 .content{position:fixed;
-        top:38%;
-        left:26vw;
-        word-spacing:5px;
-        font-size:2vw;}
+         top:38%;
+         left:26vw;
+         word-spacing:5px;
+         font-size:2vw;}
 
 .content h4{color:#F96167;
             width:20%;
