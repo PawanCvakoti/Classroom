@@ -7,8 +7,7 @@ html{scroll-behavior: smooth;}
 /*CSS For Overall html end*/
 
 /*Home*/
-
-     /*For Background of index.html*/
+/*For Background of index.html*/
 .container{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
           /*Img Taken By My Brother*/
            background-blend-mode:multiply;
@@ -17,9 +16,9 @@ html{scroll-behavior: smooth;}
            background-size:cover;
            background-repeat:no-repeat;
            height:100vh;}
-     /*Background of index.html End*/
+/*Background of index.html End*/
 
-  /*For Navigation Menu*/
+/*For Navigation Menu*/
 nav{display:flex;
     align-items:center;
     justify-content:space-between;
@@ -30,24 +29,33 @@ nav{display:flex;
     left:0;
     right:0;
     padding:10px 0;
-    text-shadow:1px 1px 1px #000; z-index:1;}
+    text-shadow:1px 1px 1px #000; 
+    z-index:1;}
 
-#ham_menu{cursor:pointer;/*Start*/
-          display:none;}
+nav label{cursor:pointer;   
+          display:none;
+          border:1px solid #000;
+          border-radius:5px;
+          padding:7px;
+          background-color:#DDDDDA;
+          position:fixed;
+          left:10px;
+          margin-top:-12px;}            
 
-#ham_menu:hover{box-shadow:2px 2px 5px #000;}
+nav label:hover{box-shadow:2px 2px 5px #000;}
 
-.two{height:3px;
+#ham_menu{display:none;}
+
+.one{height:3px;
      width:22px;
      display:block;
      background-color:#000;
      transition:0.3s ease;}
 
-#one{transform:translateY(-4px);}
+.two{transform:translateY(-3px);}
 
-#one2{transform:translateY(4px);}/*End*/
-/*(Code Spot, 2018)*/
-  
+.four{transform:translateY(3px);}
+ 
 .home{border:1px solid #fff;
       background-color:#fff;
       color:#000;
@@ -82,7 +90,7 @@ button{margin:auto 20px;
        box-shadow:2px 2px 5px #fff;}
 /*Navigation Menu End*/
 
-/* For Designing Center Contents*/
+/*For Designing Center Contents*/
 .content{position:fixed;
          top:38%;
          left:26vw;
@@ -130,7 +138,7 @@ button{margin:auto 20px;
   100%{color:#EC4D37;
        text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}              
 }
-/*For Folio*/
+/*Animation For Folio*/
 
 .effect span{color:#1D1B1B;
              text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;
@@ -147,7 +155,7 @@ button{margin:auto 20px;
   100%{color:#1D1B1B;
        text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
 }                     
-/*For Port*/
+/*Animation For Port*/
 /*Designing Center Contents End*/
 
 /*For Responsive Design*/
@@ -156,28 +164,18 @@ button{margin:auto 20px;
 nav{flex-direction:column;
     width:100%;
     position:fixed;
-    padding:20px 0px;
-    z-index:1;}
+    padding:18px 0px;}
 
 nav ul li{font-size:2.5vw;
           padding:10px;
           text-align: center;
           display:block;}
 
-#ham_menu{display:block;/*Start*/
-          position:fixed;
-          left:10px;
-          border:1px solid #000;
-          border-radius:5px;
-          padding:8px;
-          background-color:#DDDDDA;
-          margin-top:-13px;}         
+nav label{display:block;}
 
-.list{transition:0.5s ease;
-      display:none;}
-
-.cross{display:block;}/*End*/
-/*(Code Spot, 2018)*/
+.list{display:none;}      
+ 
+ #ham_menu:checked ~ .list{display:block;}
 
 .content{left:26vw;
          font-size:2.5vw;}
@@ -192,15 +190,15 @@ nav ul li{font-size:2.5vw;
 
 button{font-size:15px;
        position:fixed;
-       right:10px;
-       margin-top:-11px;} 
+       right:0px;
+       margin-top:-12px;} 
 }
 
 @media screen and (max-width:540px){
 
 nav ul li{font-size:3.2vw;}
 
-.two{width:19px;}
+.one{width:19px;}
 
 .content{font-size:2.8vw;
          left:16vw;}
@@ -214,20 +212,19 @@ nav ul li{font-size:3.2vw;}
 
 .effect{font-size:9vw;}
 
-button{font-size:13px;} 
+button{font-size:13px;
+       margin-top:-11px;} 
 }
 
 @media screen and (max-width:330px){
 
 nav ul li{font-size:3.7vw;}
 
-#ham_menu{padding:7px;
-       margin-top:-11px;}
+.one{width:15px;}
 
-.two{width:15px;}
-
-button{font-size:13px;
-       padding:2px 4px;} 
+button{font-size:12px;
+       padding:2px 4px;
+       margin-top:-10px;} 
 }
 /*Responsive Design End*/
 /*Home End*/
@@ -236,14 +233,14 @@ button{font-size:13px;
 
 /*Background of (contact,CV,portfolio,sitereport).html*/
 .container1{background-image:url(IMG-20210514-WA0025.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-   /*Img Taken By My Brother*/
+/*Img Taken By My Brother*/
             background-blend-mode:multiply;
             width:100%;
             background-position:center;
             background-size:cover;
             position:relative;
             background-repeat:no-repeat;}
- /*Background of (contact,CV,portfolio).html End*/    
+/*Background of (contact,CV,portfolio,sitereport).html End*/    
 
 /*For Navbar Contact Menu Button Design*/
 .contact{border:1px solid #fff;
@@ -254,7 +251,7 @@ button{font-size:13px;
          text-shadow:1px 1px 1px #fff;}
 
 .contact:hover{box-shadow:2px 2px 5px #fff;}
-/* Navbar Contact Menu Button Design End*/
+/*Navbar Contact Menu Button Design End*/
 
 /*For Designing Center Contents*/
 .main1{display:grid;
@@ -456,7 +453,7 @@ form{font-size:12px;}
           text-align:center;
           color:#fff;}   
 
-.percent{color:#fff;} /*For showing skill percentage start*/                  
+.percent{color:#fff;}/*For showing skill percentage start*/                  
 
 .percent li{list-style:none;
             margin:20px;}
@@ -751,7 +748,6 @@ strong{font-size:30px;}
 /*Portfolio End*/
 
 /*Sitereport Start*/
-
 /*For Navbar Sitereport Menu Button Design*/
 .sitereport{border:1px solid #fff;
             background-color:#fff;
@@ -1116,8 +1112,8 @@ strong{font-size:30px;}
 /*Responsive Design End*/
 /*Sitereport End*/
 
-/*Code Spot (2018) Easy Hamburger Menu Animation using HTML, CSS [For Beginners].YouTube[Online]. 
-  Available from:https://www.youtube.com/watch?v=F-mvXKKoSCU[Accessed 19 JUN 2021]*/
+/*WebKitCoding (2020) Animated Hamburger Menu Bar Using HTML & CSS | CSS Tutorial. YouTube[Online]. 
+Available from:https://www.youtube.com/watch?v=EW65Ll_9ioE&t=85s[Accessed 23 JUN 2021].*/
 
 /*Code Brain (2020) Building a resume using only HTML & CSS. YouTube[online].
 Available from:https://www.youtube.com/watch?v=y6ONWaTstUU&t=1711s[Accessed 22 May 2021]*/
