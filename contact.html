@@ -7,45 +7,45 @@
 	    <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body class="container1">
-	    <nav><!--For Navigation Menu-->
-		    <button type="button" onclick="alert('Hello, I am Pawan Shivakoti, a permanent resident of Hasuliya, 03 Dhangadhi, Kailai, Nepal having date of birth 21 Jnuary 2002. I completed my School Level Certificate from S.S.E.S(Stepping Stone English School) in 2018 A.D acquiring 3.45 GPA. After completion of my schooling I joined NAST(National Academy of Science and Technology) from where I completed my Higher Secondary i.e. 12th which was successfully completed in 2021 A.D. I am currently studing BSc(Hons) Computing at NAMI(Naaya Aayam Multi-Disciplinary Institute).')">About Me</button>
-	        <input type="checkbox" id="ham_menu">
-	        <ul class="list">
+	    <nav><!--For Navigation Menu And Hamburger icon-->
+		    <button type="button" onclick="alert('Hello, I am Pawan Shivakoti, a permanent resident of Hasuliya, 03 Dhangadhi, Kailai, Nepal having date of birth 21 Jnuary 2002. I completed my School Level Certificate from S.S.E.S(Stepping Stone English School) in 2018 A.D acquiring 3.45 GPA. After completion of my schooling I joined NAST(National Academy of Science and Technology) from where I completed my Higher Secondary i.e. 12th which was successfully completed in 2021 A.D. I am currently studing BSc(Hons) Computing at NAMI(Naaya Aayam Multi-Disciplinary Institute).')">About Me</button><!--About Me-->
+	        <input type="checkbox" id="ham_menu"><!--For Hamburger icon-->
+	        <label for="ham_menu">
+                <span class="one two"></span>
+                <span class="one three"></span>
+                <span class="one four"></span>
+            </label><!--Hamburger icon End-->
+            <!--(WebKitCoding, 2020)-->
+	        <ul class="list"><!--For Navigation Menu-->
 	            <li><a href="index.html">HOME</a></li>
 		        <li><a href="portfolio.html">PORTFOLIO</a></li>
 		        <li><a href="CV.html">CV</a></li>
 		        <li><a href="contact.html" class="contact">CONTACT</a></li>
 		        <li><a href="sitereport.html">SITEREPORT</a></li>
-	        </ul>
-            <label for="ham_menu"><!--Start-->
-                <span class="one two"></span>
-                <span class="one three"></span>
-                <span class="one four"></span>
-            </label><!--End-->
-            <!--(WebKitCoding, 2020)-->	
-	    </nav><!--Navigation Menu End-->
-        <div class="main1"><!--main1 div start-->
-            <div class="contact1"><!--contact1 div start-->
-	            <div class="items1"><!--items1 div start-->
+	        </ul><!--Navigation Menu End-->	
+	    </nav><!--Navigation Menu And Hamburger icon End-->
+        <div class="main1"><!--Main Container-->
+            <div class="contact1"><!--For My address and contact details-->
+	            <div class="items1"><!--Location-->
 		            <img src="location.png" class="icon1" alt="location">
 		            <!--(Flaticon, n.d.)-->
 		            <div class="info"><span>Address</span><br>Bhansar Road, Dhangadhi<br>Kailali, Nepal</div>
-	            </div><!--items1 div end-->
+	            </div>
 
-	            <div class="items1"><!--items1 div start-->
+	            <div class="items1"><!--Email Address-->
 		            <img src="email.png" class="icon1" alt="email">
 		            <!--(Flaticon, n.d.)-->
 		            <div class="info"><span>Email</span><br>shivakotipawan8@gmail.com</div>
-	            </div><!--items1 div end-->
+	            </div>
 
-	            <div class="items1"><!--items1 div start-->
+	            <div class="items1"><!--Contact Number-->
 		            <img src="phone-call.png" class="icon1" alt="phone">
 		            <!--(Flaticon, n.d.)-->
 		            <div class="info"><span>Phone</span><br>+977 981-4600223</div>
-	            </div><!--items1 div end-->
-            </div><!--contact1 div end-->
+	            </div>
+            </div><!--My address and contact details End-->
 
-            <div class="contact2"><!--contact2 div start-->
+            <div class="contact2"><!--For Form-->
 	            <h1>Contact Me</h1>
 		        <form action="mailto:shivakotipawan8@gmail.com" method="post">
 			        <label>Name:</label><br>
@@ -60,8 +60,8 @@
 			        <textarea name="Message" rows="4" placeholder="Enter Message" class="name"></textarea><br><br>
 			        <input type="submit"  id="submit" value="Message Me">
 		        </form>
-            </div><!--contact2 div end-->
-        </div><!--main1 div end-->
+            </div><!--Form End-->
+        </div><!--Main Container End-->
     </body>
 </html>
 
