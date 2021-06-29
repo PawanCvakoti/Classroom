@@ -16,7 +16,6 @@ html{scroll-behavior: smooth;}
            background-size:cover;
            background-repeat:no-repeat;
            height:100vh;}
-/*Background of index.html End*/
 
 /*For Navigation Menu*/
 nav{display:flex;
@@ -44,6 +43,7 @@ nav label{cursor:pointer;
 
 nav label:hover{box-shadow:2px 2px 5px #000;}
 
+/*For making Hamburger icon*/
 #ham_menu{display:none;}
 
 .one{height:3px;
@@ -55,7 +55,9 @@ nav label:hover{box-shadow:2px 2px 5px #000;}
 .two{transform:translateY(-3px);}
 
 .four{transform:translateY(3px);}
+/*Making Hamburger icon End*/
  
+ /*For designing navigation menu Home page link button*/
 .home{border:1px solid #fff;
       background-color:#fff;
       color:#000;
@@ -64,22 +66,23 @@ nav label:hover{box-shadow:2px 2px 5px #000;}
       text-shadow:1px 1px 1px #fff;}
 
 .home:hover{box-shadow:2px 2px 5px #fff;}
+/*Designing navigation menu Home page link button End*/
 
 nav ul{margin-right:20px;}
 
 nav ul li{display:inline-block;
           list-style:none;
           font-size:20px;}
-
+         
 nav ul li a{text-decoration:none;
             color:#fff;
             padding:5px 2vw;
             transition:0.3s ease;}
 
-
 nav ul li a:hover{color:#e7c82f;  
                   text-shadow:5px 5px 20px #e7c82f;}
 
+/*For About Me Button*/
 button{margin:auto 20px;
        border:1px solid #fff;
        background:#fff;
@@ -90,7 +93,7 @@ button{margin:auto 20px;
        box-shadow:2px 2px 5px #fff;}
 /*Navigation Menu End*/
 
-/*For Designing Center Contents*/
+/*For designing the Introduction part written in the middle of the Home page*/
 .content{position:fixed;
          top:38%;
          left:26vw;
@@ -110,6 +113,7 @@ button{margin:auto 20px;
                  color:#F70025;
                  text-shadow:1px 1px 2px #FFE5B4, 1px 1px 2px #4A171E;}
 
+/*For the floating and color-changing hover effect applied to "And This Is My"*/
 .content h2{background-color:#FEE715FF;
             color:#101820FF;
             width:22.3vw;
@@ -119,7 +123,9 @@ button{margin:auto 20px;
                   background-color:#101820FF;
                   transform:scale(1.03);
                   box-shadow:10px 10px 10px rgba(0,0,0,0.6);}
+/*Floating and color-changing hover effect applied to "And This Is My" End*/                  
 
+/*For Designing Portfolio text*/
 .effect{text-decoration:none;
         color:#EC4D37;
         font-size:5vw;
@@ -138,7 +144,7 @@ button{margin:auto 20px;
   100%{color:#EC4D37;
        text-shadow:2px 2px 3px #1D1B1B, 2px 2px 3px #4A171E;}              
 }
-/*Animation For Folio*/
+/*color-changing Animation For Folio*/
 
 .effect span{color:#1D1B1B;
              text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;
@@ -155,8 +161,9 @@ button{margin:auto 20px;
   100%{color:#1D1B1B;
        text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
 }                     
-/*Animation For Port*/
-/*Designing Center Contents End*/
+/*color-changing Animation For Port*/
+/*Designing Portfolio text End*/
+/*Designing the Introduction part written in the middle of the page End*/
 
 /*For Responsive Design*/
 @media screen and (max-width:770px){
@@ -173,9 +180,11 @@ nav ul li{font-size:2.5vw;
 
 nav label{display:block;}
 
-.list{display:none;}      
+/*toggling of navigation menu*/
+.list{display:none;}
  
- #ham_menu:checked ~ .list{display:block;}
+#ham_menu:checked ~ .list{display:block;}
+/*toggling of navigation menu End*/
 
 .content{left:26vw;
          font-size:2.5vw;}
@@ -224,7 +233,9 @@ nav ul li{font-size:3.7vw;}
 
 button{font-size:12px;
        padding:2px 4px;
-       margin-top:-10px;} 
+       margin-top:-10px;}
+
+.content h1 span{padding-left:70px;}        
 }
 /*Responsive Design End*/
 /*Home End*/
@@ -240,9 +251,8 @@ button{font-size:12px;
             background-size:cover;
             position:relative;
             background-repeat:no-repeat;}
-/*Background of (contact,CV,portfolio,sitereport).html End*/    
-
-/*For Navbar Contact Menu Button Design*/
+    
+/*For designing navigation menu Contact page link button*/
 .contact{border:1px solid #fff;
          background-color:#fff;
          color:#000;
@@ -251,7 +261,7 @@ button{font-size:12px;
          text-shadow:1px 1px 1px #fff;}
 
 .contact:hover{box-shadow:2px 2px 5px #fff;}
-/*Navbar Contact Menu Button Design End*/
+/*Designing navigation menu Contact page link button End*/
 
 /*For Designing Center Contents*/
 .main1{display:grid;
@@ -260,7 +270,8 @@ button{font-size:12px;
        margin:100px auto 30px;
        grid-template-columns:auto auto;}
 
-.icon1{width:35px;
+/*For Designing My address, and contact details*/
+.icon1{width:35px;/*For location, email, and phone icons*/
        cursor:pointer;
        margin-right:20px;
        border:1px solid #fff;
@@ -279,12 +290,15 @@ button{font-size:12px;
 
 .info span{color:#Afff;
            font-size:27px;}
+/*Designing My address, and contact details and icons used End*/           
 
-.contact2{background-color:rgba(0,0,0,0.4);
+.contact2{background-color:rgba(0,0,0,0.8);/*For Designing Form*/
           padding:0 80px 30px 80px;
           color:#fff;
-          transition:0.3s ease;}
+          transition:0.3s ease;
+          border-radius:10px;}
 
+/*For the floating hover effect applied on the Form*/
 .contact2:hover{transform:translateY(-20px);
                 box-shadow:10px 10px 10px rgba(0,0,0,0.6);} 
 
@@ -292,23 +306,23 @@ button{font-size:12px;
 
 form{font-size:17px;}
 
-#submit{border:1px solid #FFE5B4;
+#submit{border:1px solid #FFE5B4;/*For Submit Button*/
         background-color:#FFE5B4;
         padding:5px 10px;
         border-radius:20px;
         cursor:pointer;
         margin-left:50px;}
 
+/*For the glowing hover effect applied on the Submit Button*/
 #submit:hover{box-shadow:2px 2px 5px #FFE5B4;}
 
-.name{width:100%;}
+.name{width:100%;}/*Designing Form End*/
 /*Designing Center Contents End*/
 
 /*For Responsive Design*/
 @media screen and (max-width:960px){
 
-.main1{grid-template-columns:auto;
-       grid-template-rows:auto auto;}
+.main1{grid-template-columns:auto;}
 
 .icon1{width:30px;
        height:30px;}
@@ -361,7 +375,7 @@ form{font-size:12px;}
 
 /*CV*/
 
-/*For Navbar CV Menu Button Design*/
+/*For designing navigation menu CV page link button*/
 .CV{border:1px solid #fff;
     background-color:#fff;
     color:#000;
@@ -370,14 +384,15 @@ form{font-size:12px;}
     text-shadow:1px 1px 1px #fff;}
 
 .CV:hover{box-shadow:2px 2px 5px #fff;}
-/*Navbar CV Menu Button Design End*/
+/*Designing navigation menu CV page link button End*/
 
 /*For Designing Center Contents*/
-.top1{text-align:center;
+.top1{text-align:center;/*For Heading part*/
       margin:80px 20px 20px;}
 
 .top1 h1{color:#000;
-         text-shadow:2px 2px 2px #ff6600, 2px -2px 2px #d8d8d8, 2px -2px 2px #d8d8d8;}         
+         text-shadow:2px 2px 2px #ff6600, 2px -2px 2px #d8d8d8, 2px -2px 2px #d8d8d8;}/*Heading part End*/  
+
 
 .main2{display:grid;
        grid-template-columns:auto auto;
@@ -386,6 +401,7 @@ form{font-size:12px;}
        align-content:center;
        margin:10px auto;}
 
+/*For Designing the box containing my Resume picture and Name*/
 .left-content{display:flex;
               flex-direction:column;
               width:300px;
@@ -398,6 +414,7 @@ form{font-size:12px;}
               height:250px;
               color:#DC143C;}
 
+/*For the Card Hover effect applied in the box*/
 .left-content:hover{transform:scale(1.03);
                     box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}            
 
@@ -405,20 +422,24 @@ form{font-size:12px;}
       height:220px;
       border:1px solid #fff;
       border-radius: 20px;}
+/*Designing the box containing my Resume picture and Name End*/      
 
+/*For designing the box containing my address, contact details and skills*/
 .left-content1{display:flex;
                flex-direction:column;
                width:300px;
                border:1px solid rgba(0,0,0,0.5);
-               background-color:rgba(0,0,0,0.5);
+               background-color:rgba(0,0,0,0.8);
                border-radius:20px;
                margin:25px auto 10px;
                height:500px;
                transition:0.1s ease-in-out;}
 
+/*For the Card Hover effect applied in the box*/
 .left-content1:hover{transform:scale(1.03);
                      box-shadow:10px 10px 10px rgba(0,0,0,0.6);}               
 
+/*For Contact part*/
 .left-content1  h3{margin:20px;
                    text-align:center;
                    color:#fff;}       
@@ -426,7 +447,7 @@ form{font-size:12px;}
 .items2{display:flex;
         margin-bottom:15px;}
 
-.icon2{width:25px;
+.icon2{width:25px;/*For location, email, and phone icons*/
 	     height:25px;
        cursor:pointer;
        margin:0px 15px;
@@ -441,10 +462,12 @@ form{font-size:12px;}
 
 .head1 span{color:#Afff;
             font-size:18px;}
+/*Contact part End*/
 
+/*For Skills part*/
 .skill{display:flex;} 
   
-.icon3{width:55px;
+.icon3{width:55px;/*For skill icon*/
        cursor:pointer;
        margin:10px 15px 0px 30px;
        height:40px;}           
@@ -453,7 +476,7 @@ form{font-size:12px;}
           text-align:center;
           color:#fff;}   
 
-.percent{color:#fff;}/*For showing skill percentage start*/                  
+.percent{color:#fff;}/*For showing skill percentage*/                  
 
 .percent li{list-style:none;
             margin:20px;}
@@ -472,9 +495,12 @@ form{font-size:12px;}
 
 .p-30{width:30%;}
 
-.p-70{width:70%;}/*For showing skill percentage end*/
-/*(Code Brain, 2020)*/ 
+.p-70{width:70%;}/*For showing skill percentage End*/
+/*(Code Brain, 2020)*/
+/*Skills part End*/ 
+/*Designing the box containing my address, contact details and skills End*/
 
+/*For designing the box containing my education, experience, interests and social media accounts details*/
 .right-content{display:flex;
                flex-direction:column;
                width:300px;
@@ -487,16 +513,18 @@ form{font-size:12px;}
                grid-row: 1 / span 2;
                grid-column:2;}
 
+/*For the Card Hover effect applied in the box*/
 .right-content:hover{transform:scale(1.03);
                      box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}             
 
-.icon4{width:55px;
-       cursor:pointer;
-       margin:10px 10px 0px 30px;
-       height:40px;}
-
+/*For Education part*/
 .education{display:flex;
            text-align:center;}
+
+.icon4{width:55px;/*For graduated icon*/
+       cursor:pointer;
+       margin:10px 10px 0px 30px;
+       height:40px;}           
 
 .education h2{margin:15px;
               text-align:center;}
@@ -509,14 +537,18 @@ form{font-size:12px;}
 
 .parts{padding-bottom:10px;
        line-height:20px;}
+/*Education part End*/       
 
+/*For Experience part*/
 .experience{text-align:center;
             margin:30px;}
 
 .experience h2 span{color:#DC143C;}
 
-strong{font-size:30px;}
+.experience strong{font-size:30px;}
+/*Experience part End*/
 
+/*For Interest part*/
 .interest h2{text-align:center;
              margin-bottom:15px;}
 
@@ -525,14 +557,17 @@ strong{font-size:30px;}
 .book{display:flex;
       align-items:center;}
 
-.icon5{width:65px;
+.icon5{width:65px;/*For book, music, and cinema icons*/
        cursor:pointer;
+       background-color:  rgb(255,229,180,0.7);
        margin:10px 15px 0px 20px;
        border:1px solid #000;
        border-radius:10px;
        padding:10px;
        height:50px;}
+/*Interest part End*/       
 
+/*For Social part*/
 .social{text-align:center;}
 
 .social h2{margin:10px;
@@ -544,17 +579,22 @@ strong{font-size:30px;}
              justify-content:center;
              align-items:center;}
 
-.icon6{width:60px;
+.icon6{width:60px;/*For facebook, instagram and twitter icon*/
        cursor:pointer;
        padding-right:20px;
-       height:45px;}            
+       height:45px;}
+/*Social part End*/                   
 /*Designing Center Content End*/
 
 /*For Responsive Design*/
  @media screen and (max-width:665px){
 
+.top1{margin:70px 20px 10px;}  
+
 .main2{grid-template-columns:auto;
        grid-template-rows:auto auto auto;}
+
+.left-content{margin-top:20px;}       
    
 .right-content{grid-row:3;
                grid-column:1;
@@ -565,64 +605,72 @@ strong{font-size:30px;}
 
 @media screen and (max-width:310px){ 
 
-.top1{margin:80px 20px 10px;} 
+.top1 h1{font-size:19px;}
 
-.top1 h1{font-size:20px;}
+.left-content{width:260px;
+              height:220px;}
 
-.left-content{width:270px;
-              height:230px;}
+.left-content h3{font-size:15px;}             
 
-.left-content h3{font-size:16px;}             
+.img1{height:200px;}             
 
-.img1{height:208px;}             
+.left-content1{width:260px;
+               height:430px;} 
 
-.left-content1{width:270px;
-               height:460px;} 
+.left-content1 h3{font-size:15px;}
 
-.left-content1 h3{font-size:16px;}       
+.percent{margin-top:-20px;
+         font-size:14px;}       
 
-.head1{font-size:14px;}     
+.head1{font-size:13px;}     
 
-.head1 span{font-size:16px;}
+.head1 span{font-size:15px;}
 
-.icon3{width:50px;
-       height:35px;}           
+.icon3{width:45px;
+       height:30px;
+       margin:10px 10px 0px 35px;}           
 
-/*For showing skill percentage start*/                  
+/*For showing skill percentage*/                  
 .inside{height:8px;}           
 
 .outside{height:9px;}
 /*For showing skill percentage End*/
 /*(Code Brain, 2020)*/                         
    
-.right-content{width:270px;
-               height:760px;}
+.right-content{width:260px;
+               height:700px;}
 
-.icon5{width:60px;
+.icon4{width:40px;
+       height:35px;}               
+
+.icon5{width:50px;
        margin:8px 15px 0px 20px;
        padding:8px;
-       height:45px;}
+       height:40px;}
 
-.icon4{width:50px;
-       height:35px;}
+.education h2{font-size:18px;}
 
-.education h2{font-size:20px;}
+.parts{font-size:14px;}
 
-.experience h2{font-size:20px;}
+.parts h4{font-size:16px;}
 
-.interest h2{font-size:20px;}
+.experience h2{font-size:18px;}
 
-.social h2{font-size:20px;}
+.experience{margin:20px;}
 
-.icon6{width:55px;
-       height:40px;}     
+.interest h2{font-size:18px;}
+
+.social h2{font-size:18px;}
+
+.icon6{width:50px;
+       height:35px;}     
 }  
 /*Responsive Design End*/
 /*CV End*/
 
 /*Portfolio*/
 
-/*For Navbar Portfolio Menu Button Design*/
+/*For designing navigation menu Portfolio page link button*/
 .portfolio{border:1px solid #fff;
            background-color:#fff;
            color:#000;
@@ -631,9 +679,9 @@ strong{font-size:30px;}
            text-shadow:1px 1px 1px #fff;}
 
 .portfolio:hover{box-shadow:2px 2px 5px #fff;}
-/*Navbar Portfolio Menu Button Design End*/
+/*Designing navigation menu CV page link button End*/
 
-/*For Heading Part*/
+/*For Designing Heading Part*/
 .top{text-align:center;
      margin:80px 20px 20px;}
 
@@ -651,16 +699,19 @@ strong{font-size:30px;}
   75%{text-shadow:3px 0 0 #0000ff, -2px -3px 0 #ff0000, 2px 3px 0 #008000;}
 
   100%{text-shadow:3px 0 0 #ff0000, -2px -3px 0 #008000, 2px 3px 0 #0000ff;}
-}              
+}
+/*3D color-changing animation for "welcome to my"*/              
 
 .top h1{color:#FF0000;
         text-shadow:1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000;}
+/*3D text shadow for folio*/        
 
 .top h1 span{color:#000;
-             text-shadow:1px 1px 2px #FF0000, 1px 1px 2px #F70025, 1px 1px 2px #000;}                  
-/*Heading Part End*/
+             text-shadow:1px 1px 2px #FF0000, 1px 1px 2px #F70025, 1px 1px 2px #000;}
+/*3D text shadow for Port*/                               
+/*Designing Heading Part End*/
 
-/*For Designing Center Content*/
+/*For Designing placeholder images*/
 .img-container{display:grid;
                grid-template-columns: auto auto auto;
                grid-gap:55px;
@@ -676,10 +727,10 @@ strong{font-size:30px;}
           transition:0.3s ease;
           display:block;}
 
- .content1:hover{transform:translateY(-25px);
+ .content1:hover{transform:translateY(-25px);/*For the Card Hover effect applied in all the placeholder images*/
                  box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}                       
 
-.img{width:100%;
+.img{width:100%;/*For computer icon*/
      border:1px solid #FFE5B4;
      border-radius:10px;
      height:170px;}    
@@ -692,7 +743,7 @@ strong{font-size:30px;}
 .content1 p{text-align:center;
             padding:6px;
             font-size:18px} 
-/*Designing Center Content End*/
+/*Designing placeholder images End*/
 
 /*For Responsive Design*/
 @media screen and (max-width:850px){
@@ -744,11 +795,11 @@ strong{font-size:30px;}
       
 .content1 h2{font-size:18px;}
 }   
-/*Responsive End*/
+/*Responsive Design End*/
 /*Portfolio End*/
 
 /*Sitereport Start*/
-/*For Navbar Sitereport Menu Button Design*/
+/*For designing navigation menu Sitereport page link button*/
 .sitereport{border:1px solid #fff;
             background-color:#fff;
             color:#000;
@@ -757,30 +808,32 @@ strong{font-size:30px;}
             text-shadow:1px 1px 1px #fff;}
 
 .sitereport:hover{box-shadow:2px 2px 5px #fff;}
-/*Navbar Sitereport Menu Button Design End*/
+/*Designing navigation menu Sitereport page link button End*/
 
-/*For Designing Center content Start*/
-.myexperience{margin:80px 10px 20px;}
+/*For Designing Center content*/
+.report{margin:80px 10px 20px;}
 
-.myexperience h1{text-align:center;
-                 color:#f3ca20;
-                 margin-top:20px;
-                 text-shadow:1px 1px 1px #fff, 1px 1px 2px #d2601a, 1px 1px 2px #FF0000;}
+.report h1{text-align:center;
+           color:#f3ca20;
+           margin-top:20px;
+           text-shadow:1px 1px 1px #fff, 1px 1px 2px #d2601a, 1px 1px 2px #FF0000;}
 
-.myexperience h3{margin:15px;
-                 color:#FF3EA5FF;
-                 text-shadow:1px 1px 2px #000;}                 
+.report h3{margin:15px;
+           color:#FF3EA5FF;
+           text-shadow:1px 1px 2px #000;}                 
 
-.myexperience p{margin:15px;
-                font-size:20px;
-                color:#fff;
-                text-shadow:1px 1px 2px #000;}
+.report p{margin:15px;
+          font-size:20px;
+          color:#fff;
+          text-shadow:1px 1px 2px #000;}
 
-.myexperience h2{margin:15px;
-                 color:#f95700ff;
-                 text-shadow:1px 1px 1px #ffd79d, 1px 1px 2px #000, 1px 1px 2px #000;}
-
-.grid-img{display:grid;/*For position-changing animation in first four photos of sitereport.html page Start*/
+.report h2{margin:15px;
+           color:#f95700ff;
+           text-shadow:1px 1px 1px #ffd79d, 1px 1px 2px #000, 1px 1px 2px #000;}
+           
+/*For position-changing animation in first four photos of sitereport page*/
+/*This grid is used to place two or four images with a width of 350px*/
+.grid-img{display:grid;
           grid-template-columns:auto auto;
           justify-content:center;
           align-content:center;}
@@ -868,8 +921,9 @@ strong{font-size:30px;}
   100%{grid-row:2;
        grid-column:1;}
 }
-/*For position-changing animation in first four photos of sitereport.html page End*/
+/*Position-changing animation in first four photos of sitereport page End*/
 
+/*This grid is used to place two images with a width of 450px*/
 .grid-img1{display:grid;
            grid-template-columns:auto auto;
            justify-content:center;
@@ -877,36 +931,30 @@ strong{font-size:30px;}
 
 .img-text{text-align:center;}
 
+/*This grid is used to place only one image of any width*/
 .grid-img2{display:grid;
            grid-template-columns:auto;
            justify-content:center;
            align-items:center;}
 
-.exp-img{display:grid;
-         grid-template-columns:auto auto;
-         justify-content:center;
-         align-content:center;}
-
+/*This grid is used to place three icons in one row*/
 .grid-img3{display:grid;
-           grid-template-rows:auto auto;
-           justify-content:center;
-           align-content:center;}
-
-.grid-img4{display:grid;
            grid-template-columns:auto auto auto;
            justify-content:center;
            align-content:center;}
 
-.grid-img5{display:grid;
+/*This grid is used to place two icons in one row*/
+.grid-img4{display:grid;
            grid-template-columns:auto auto;
            justify-content:center;
            align-content:center;}           
 
-.exp-img1{display:flex;
-          flex-direction:column;
-          justify-content:center;
-          align-items:center;}                                              
+.icon-reference{display:flex;/*To keep icon and reference*/
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;} 
 
+/*For the images with a width of 350px*/
 .img2{width:350px;
       border:3px solid #e7c82f;
       border-radius:10px;
@@ -915,6 +963,7 @@ strong{font-size:30px;}
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
 
+/*For the images with a width of 450px*/
 .img3{width:450px;
       border:3px solid #e7c82f;
       border-radius:10px;
@@ -923,16 +972,17 @@ strong{font-size:30px;}
       box-shadow:10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
 
-.myexperience span{color:#fff5ab;
-                   text-shadow:1px 1px 2px #000, 1px 1px 2px #000}
+.report span{color:#fff5ab;
+             text-shadow:1px 1px 2px #000, 1px 1px 2px #000}
 
-.myexperience b{color:#ffcead;
-                text-shadow:1px 1px 2px #000, 1px 1px 2px #000;} 
+.report b{color:#ffcead;
+          text-shadow:1px 1px 2px #000, 1px 1px 2px #000;} 
 
-.myexperience a{text-decoration:none;
-                color:#F7A440;
-                text-shadow:1px 1px 2px #000, 1px 1px 2px #000;} 
+.report a{text-decoration:none;
+          color:#F7A440;
+          text-shadow:1px 1px 2px #000, 1px 1px 2px #000;} 
 
+/*For the computer icon*/
 .img4{background-color:#FFE5B4;
       width:170px;
       border:3px solid #e7c82f;
@@ -942,13 +992,10 @@ strong{font-size:30px;}
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;}
 
-.img4:hover{transform:translateY(-25px);
-            box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}      
+.img4:hover{transform:translateY(-25px);/*For the card hover effect on computer icon*/
+            box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}                 
 
-.group1{display:flex;
-        align-items:center;
-        justify-content:center;}            
-
+/*For all other icons*/
 .img5{background-color:#FFF;
       width:170px;
       border:3px solid #e7c82f;
@@ -958,26 +1005,23 @@ strong{font-size:30px;}
       box-shadow: 10px 10px rgba(0,0,0,0.3);
       transition:0.3s ease;} 
 
-.img5:hover{transform:translateY(-25px);
+.img5:hover{transform:translateY(-25px);/*For the card hover effect on all other icons*/
             box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}      
 /*Designing Center content End*/                                           
 
-/*For Responsive Design*/
+/*For Responsive Design of sitereport page*/
 @media screen and (max-width:1020px){
 
 .grid-img1{grid-template-columns:auto;}
 
-.exp-img{grid-template-columns:auto;}
-
-.grid-img4{ grid-template-columns:auto auto;}
+.grid-img3{ grid-template-columns:auto auto;}
 }
 
 @media screen and (max-width:770px){
 
-.myexperience h1{font-size:25px;}
+.report h1{font-size:25px;}
 
-.exp-img{grid-template-columns:auto;}
-
+/*For position-changing animation in first four photos of sitereport page*/
 .grid-img{grid-template-columns:auto;}
 
 .img6{grid-row:1;
@@ -1060,13 +1104,14 @@ strong{font-size:30px;}
   100%{grid-row:4;
       grid-column:1;}
 }
+/*Position-changing animation in first four photos of sitereport page End*/
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:609px){
+
+.grid-img3{grid-template-columns:auto;}
 
 .grid-img4{grid-template-columns:auto;}
-
-.grid-img5{grid-template-columns:auto;}
 
 .img3{width:350px;
       height:230px;}
@@ -1095,13 +1140,13 @@ strong{font-size:30px;}
 
 @media screen and (max-width:340px){
 
-.myexperience h1{font-size:23px;}
+.report h1{font-size:23px;}
 
-.myexperience h3{font-size:15px;}                 
+.report h3{font-size:15px;}                 
 
-.myexperience p{font-size:14px;}
+.report p{font-size:14px;}
 
-.myexperience h2{font-size:20px;}
+.report h2{font-size:20px;}
 
 .img2{width:240px;
       height:180px;}
