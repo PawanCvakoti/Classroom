@@ -3,7 +3,7 @@
   padding:0;
   box-sizing:border-box;}
 
-html{scroll-behavior: smooth;}
+html{scroll-behavior:smooth;}
 /*CSS For Overall html end*/
 
 /*Home*/
@@ -57,7 +57,7 @@ nav label:hover{box-shadow:2px 2px 5px #000;}
 .four{transform:translateY(3px);}
 /*Making Hamburger icon End*/
  
- /*For designing navigation menu Home page link button*/
+ /*For designing navigation menu Home page link*/
 .home{border:1px solid #fff;
       background-color:#fff;
       color:#000;
@@ -66,7 +66,7 @@ nav label:hover{box-shadow:2px 2px 5px #000;}
       text-shadow:1px 1px 1px #fff;}
 
 .home:hover{box-shadow:2px 2px 5px #fff;}
-/*Designing navigation menu Home page link button End*/
+/*Designing navigation menu Home page link End*/
 
 nav ul{margin-right:20px;}
 
@@ -162,7 +162,6 @@ button{margin:auto 20px;
        text-shadow:2px 2px 3px #EC4D37, 2px 2px 3px #4A171E;}              
 }                     
 /*color-changing Animation For Port*/
-/*Designing Portfolio text End*/
 /*Designing the Introduction part written in the middle of the page End*/
 
 /*For Responsive Design*/
@@ -170,7 +169,6 @@ button{margin:auto 20px;
 
 nav{flex-direction:column;
     width:100%;
-    position:fixed;
     padding:18px 0px;}
 
 nav ul li{font-size:2.5vw;
@@ -252,7 +250,7 @@ button{font-size:12px;
             position:relative;
             background-repeat:no-repeat;}
     
-/*For designing navigation menu Contact page link button*/
+/*For designing navigation menu Contact page link*/
 .contact{border:1px solid #fff;
          background-color:#fff;
          color:#000;
@@ -261,7 +259,7 @@ button{font-size:12px;
          text-shadow:1px 1px 1px #fff;}
 
 .contact:hover{box-shadow:2px 2px 5px #fff;}
-/*Designing navigation menu Contact page link button End*/
+/*Designing navigation menu Contact page link End*/
 
 /*For Designing Center Contents*/
 .main1{display:grid;
@@ -289,10 +287,10 @@ button{font-size:12px;
           margin-right:250px;}
 
 .info span{color:#Afff;
-           font-size:27px;}
-/*Designing My address, and contact details and icons used End*/           
+           font-size:27px;}           
 
-.contact2{background-color:rgba(0,0,0,0.8);/*For Designing Form*/
+/*For Designing Form*/
+.contact2{background-color:rgba(0,0,0,0.8);
           padding:0 80px 30px 80px;
           color:#fff;
           transition:0.3s ease;
@@ -316,7 +314,7 @@ form{font-size:17px;}
 /*For the glowing hover effect applied on the Submit Button*/
 #submit:hover{box-shadow:2px 2px 5px #FFE5B4;}
 
-.name{width:100%;}/*Designing Form End*/
+.name{width:100%;}
 /*Designing Center Contents End*/
 
 /*For Responsive Design*/
@@ -375,7 +373,7 @@ form{font-size:12px;}
 
 /*CV*/
 
-/*For designing navigation menu CV page link button*/
+/*For designing navigation menu CV page link*/
 .CV{border:1px solid #fff;
     background-color:#fff;
     color:#000;
@@ -384,7 +382,7 @@ form{font-size:12px;}
     text-shadow:1px 1px 1px #fff;}
 
 .CV:hover{box-shadow:2px 2px 5px #fff;}
-/*Designing navigation menu CV page link button End*/
+/*Designing navigation menu CV page link End*/
 
 /*For Designing Center Contents*/
 .top1{text-align:center;/*For Heading part*/
@@ -392,7 +390,6 @@ form{font-size:12px;}
 
 .top1 h1{color:#000;
          text-shadow:2px 2px 2px #ff6600, 2px -2px 2px #d8d8d8, 2px -2px 2px #d8d8d8;}/*Heading part End*/  
-
 
 .main2{display:grid;
        grid-template-columns:auto auto;
@@ -431,7 +428,7 @@ form{font-size:12px;}
                border:1px solid rgba(0,0,0,0.5);
                background-color:rgba(0,0,0,0.8);
                border-radius:20px;
-               margin:25px auto 10px;
+               margin:20px auto 10px;
                height:500px;
                transition:0.1s ease-in-out;}
 
@@ -462,7 +459,6 @@ form{font-size:12px;}
 
 .head1 span{color:#Afff;
             font-size:18px;}
-/*Contact part End*/
 
 /*For Skills part*/
 .skill{display:flex;} 
@@ -495,9 +491,8 @@ form{font-size:12px;}
 
 .p-30{width:30%;}
 
-.p-70{width:70%;}/*For showing skill percentage End*/
-/*(Code Brain, 2020)*/
-/*Skills part End*/ 
+.p-70{width:70%;}/*Showing skill percentage End*/
+/*(Code Brain, 2020)*/ 
 /*Designing the box containing my address, contact details and skills End*/
 
 /*For designing the box containing my education, experience, interests and social media accounts details*/
@@ -507,7 +502,7 @@ form{font-size:12px;}
                border:1px solid #FF0000;
                background-color:#fff;
                border-radius:20px;
-               margin:25px 0px 15px 30px;
+               margin:25px 0px 15px 25px;
                transition:0.1s ease-in-out;
                height:775px;
                grid-row: 1 / span 2;
@@ -537,8 +532,7 @@ form{font-size:12px;}
 
 .parts{padding-bottom:10px;
        line-height:20px;}
-/*Education part End*/       
-
+       
 /*For Experience part*/
 .experience{text-align:center;
             margin:30px;}
@@ -546,7 +540,6 @@ form{font-size:12px;}
 .experience h2 span{color:#DC143C;}
 
 .experience strong{font-size:30px;}
-/*Experience part End*/
 
 /*For Interest part*/
 .interest h2{text-align:center;
@@ -564,8 +557,7 @@ form{font-size:12px;}
        border:1px solid #000;
        border-radius:10px;
        padding:10px;
-       height:50px;}
-/*Interest part End*/       
+       height:50px;}      
 
 /*For Social part*/
 .social{text-align:center;}
@@ -582,8 +574,7 @@ form{font-size:12px;}
 .icon6{width:60px;/*For facebook, instagram and twitter icon*/
        cursor:pointer;
        padding-right:20px;
-       height:45px;}
-/*Social part End*/                   
+       height:45px;}                   
 /*Designing Center Content End*/
 
 /*For Responsive Design*/
@@ -670,7 +661,7 @@ form{font-size:12px;}
 
 /*Portfolio*/
 
-/*For designing navigation menu Portfolio page link button*/
+/*For designing navigation menu Portfolio page link*/
 .portfolio{border:1px solid #fff;
            background-color:#fff;
            color:#000;
@@ -679,7 +670,7 @@ form{font-size:12px;}
            text-shadow:1px 1px 1px #fff;}
 
 .portfolio:hover{box-shadow:2px 2px 5px #fff;}
-/*Designing navigation menu CV page link button End*/
+/*Designing navigation menu Portfolio page link End*/
 
 /*For Designing Heading Part*/
 .top{text-align:center;
@@ -727,8 +718,8 @@ form{font-size:12px;}
           transition:0.3s ease;
           display:block;}
 
- .content1:hover{transform:translateY(-25px);/*For the Card Hover effect applied in all the placeholder images*/
-                 box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}                       
+.content1:hover{transform:translateY(-25px);/*For the Card Hover effect applied in all the placeholder images*/
+                box-shadow:10px 10px 10px rgba(0,0,0,0.6), 2px 2px 2px #fff;}                       
 
 .img{width:100%;/*For computer icon*/
      border:1px solid #FFE5B4;
